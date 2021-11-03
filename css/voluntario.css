@@ -1,0 +1,148 @@
+/*MAIN*/
+body{
+  box-sizing: border-box;  
+  align-items: center;
+}
+
+.main .conteudo{
+  padding: 1rem  2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;  
+}
+
+.main .conteudo h1, h2{
+    color: var(--color-sub-title);
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.main .conteudo p {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.main .conteudo ul li{
+    color: var(--text-color);
+    font-size: 1.4rem;
+    list-style:square;
+}
+
+/*PROGRAMA*/
+
+.programa{
+  align-self: flex-start;
+  width: 70%;
+  margin: 2rem 0 1rem 1rem;
+  height: 25rem;
+  padding: 2rem;
+}
+
+.programa p{
+  text-align: left;
+}
+/*IMG*/
+
+/*informaçoes*/
+.inform{
+  text-align: center;
+}
+
+.main .conteudo img{
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+.main .conteudo .image{
+  position: relative;
+}
+
+.main .conteudo .image::before{
+  content: '';
+  height: 80%;
+  width: 80%;
+  background: var(--color-img);
+  position: absolute;
+  top: -1.1%;
+  left: 2%;
+  z-index: -1; /* ´Fica atrás da imagem */
+}
+
+.main .conteudo .image img,
+.main .conteudo .image::before{
+    border-radius: 0.30rem;
+}
+
+.main .conteudo .image img{
+    position: relative;
+    right: 2.93rem;
+}
+
+/*REQUISITOS*/
+.requisitos{
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.requisitos div{
+  padding: 2rem 1rem ;
+  width: 50%;
+}
+
+.requisitos div + div{
+  margin-left: 1rem;
+}
+
+
+/*iNCLUSO E NÃO INCLUSO*/
+.incluso{
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.incluso div{
+  border-radius: 10px;
+  padding: 2rem 0 2rem 3rem;
+  width: 50%;
+}
+
+.incluso div + div{
+  margin-left: 4rem;
+}
+
+/*INFORM*/
+.inform h4{
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+
+.inform a{
+  text-decoration: none;
+}
+
+.inform .increva{
+    display: inline-flex;
+    align-items: center;
+    background: var(--color-title);
+    color: var(--text-color-light);
+    font-weight: 400;
+    height: 3.5rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.85rem;
+    transition: background 0.4s;
+}
+
+.increva:hover{
+    opacity: .8;
+}
+
+

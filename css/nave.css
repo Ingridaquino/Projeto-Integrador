@@ -1,0 +1,216 @@
+/*RESEAT*/
+
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+html{
+    /* colors */
+  --hue: 159;
+  /*COLOR TEXTO*/
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  
+  /*COLOR NAVEGADOR E FOOTER*/
+  --color-nav-footer: rgba(17, 112, 189, 0.849);
+  
+  /*COLOR TITULO - nav */
+  --color-title:#0a0a66;
+  
+  /*COLOR TITULO - nav */
+  --color-houver:rgb(14, 97, 51);
+
+  /*color do title */
+  --color-sub-title: rgba(14, 124, 187, 0.644);
+  /* --color-IMAGEM */
+  --color-img:rgba(102, 161, 209, 0.925);
+  /*Color da linha do houver*/
+  --color-icon:#13d14c;
+
+  /*1rem = 16px (user agent) = 100% (User Agent) */
+  font-size: 62.5% /* 10px */
+}
+
+html{
+scroll-behavior: smooth; /* Rolagem de leve na página */
+}
+
+li{
+list-style: none;
+}
+
+/*MENU*/
+.header{
+box-shadow: 0 0 12px rgba(0, 0, 0, 0.658);
+}
+
+.logo img {
+width: 36%;
+}
+
+.nave {
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family:'Poppins', sans-serif;
+font-weight:bold;
+background: var(--color-nav-footer);
+height: 9rem;
+}
+
+.nave a{
+  font-size: 2rem !important;
+  color: var(--color-title);
+}
+
+.nav-list {
+list-style: none;
+display: flex;
+}
+
+.nav-list li {
+/* letter-spacing: .1rem; */
+margin-left: 2.2rem;
+border-radius:.4rem;
+/* color: var(--color-sub-title); */
+}
+
+
+/* 
+Efeito de traçinho no menu */
+.nav-list li a{
+transition: color 0.3s ease-in; /* Colocar o color, para ocorrer a transição somente na cor */
+position: relative;
+padding: 1rem;
+text-decoration: none;
+}
+
+.nav-list li a:hover{
+ color: var(--color-houver);
+}
+
+.nav-list li a::after{
+content: '';
+width: 0%; /*Para dar o efeito dele crescendo */
+height: .2rem;
+background: var(--color-icon);
+position: absolute;
+left: 0;
+bottom: -.2rem;
+transition: width 0.2s;  /*Para dar o efeito dele crescendo */
+}
+
+.nav-list li a:hover::after{
+width: 100%;  /*Para dar o efeito dele crescendo */
+}
+
+.nav-list li{
+text-align: center;
+}
+
+/*Menu Hamburgue*/
+.mobile-menu {
+display: none;
+cursor: pointer;
+}
+
+.mobile-menu div {
+width: 3.2rem;
+height: .5rem;
+background: #fff;
+margin: .5rem;
+}
+
+@media (max-width:1200px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    top: 13vh;
+    right: 0;
+    width: 30vw;
+    height: 92vh;
+    background:var(--color-nav-footer);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+  }
+  .nav-list li {
+    margin-left: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+}
+
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@media (min-width: 300px){
+  /* body{
+    font-size: .25rem;
+  } */
+  
+  .nav-list {
+    width: 40vw;
+  }
+}
+
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(5.0rem);
+  
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    
+  }
+}
+
+/* X DE FECHAMENTO */
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+
+  
+
+/*LINHA QUE SEPARA OS CONTEUDOS*/
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 36%, 57%, 1),
+    hsla(var(--hue), 65%, 88%, 0.34)
+  );
+}
+
+.divider-2 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 65%, 88%, 0.34),
+    hsla(var(--hue), 36%, 57%, 1)
+  );
+}
