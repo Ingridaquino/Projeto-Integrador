@@ -1,7 +1,6 @@
 /*MAIN*/
 body{
   box-sizing: border-box;  
-  align-items: center;
 }
 
 .main .conteudo{
@@ -26,28 +25,22 @@ body{
 .main .conteudo ul li{
     color: var(--text-color);
     font-size: 1.4rem;
-    list-style:square;
 }
 
 /*PROGRAMA*/
 
-.programa{
+.conteudo .programa{
   align-self: flex-start;
   width: 70%;
   margin: 2rem 0 1rem 1rem;
-  height: 25rem;
   padding: 2rem;
 }
 
-.programa p{
+.conteudo .programa p{
   text-align: left;
 }
 /*IMG*/
 
-/*informaçoes*/
-.inform{
-  text-align: center;
-}
 
 .main .conteudo img{
   width: 80%;
@@ -71,34 +64,37 @@ body{
 
 .main .conteudo .image img,
 .main .conteudo .image::before{
-    border-radius: 0.30rem;
+  border-radius: 0.30rem;
 }
 
 .main .conteudo .image img{
-    position: relative;
-    right: 2.93rem;
+  position: relative;
+  right: 2.93rem;
 }
 
 /*REQUISITOS*/
-.requisitos{
+.conteudo .requisitos{
   width: 100%;
   display: flex;
   padding: 1rem;
   margin: 1rem;
 }
+.conteudo .requisitos .list-volu > li{
+  list-style:circle;
+}
 
-.requisitos div{
+.conteudo .requisitos div{
   padding: 2rem 1rem ;
   width: 50%;
 }
 
-.requisitos div + div{
+.conteudo .requisitos div + div{
   margin-left: 1rem;
 }
 
 
 /*iNCLUSO E NÃO INCLUSO*/
-.incluso{
+.conteudo .incluso{
   width: 100%;
   padding: 1rem;
   display: flex;
@@ -106,43 +102,76 @@ body{
   justify-content: space-around;
 }
 
-.incluso div{
-  border-radius: 10px;
-  padding: 2rem 0 2rem 3rem;
-  width: 50%;
+.conteudo  .incluso .list-inclu li{
+  list-style:square;
 }
 
-.incluso div + div{
-  margin-left: 4rem;
+.conteudo  .incluso div{
+  padding: 2rem;
+}
+@media(min-width:768px){
+  .conteudo .incluso div + div{
+    padding-left: 4rem;
+  }
+
 }
 
 /*INFORM*/
-.inform h4{
+.conteudo  .inform h4{
   font-size: 2rem;
   font-weight: 700;
   color: var(--text-color);
 }
 
 
-.inform a{
+.conteudo .inform a{
   text-decoration: none;
 }
 
-.inform .increva{
-    display: inline-flex;
-    align-items: center;
-    background: var(--color-title);
-    color: var(--text-color-light);
-    font-weight: 400;
-    height: 3.5rem;
-    padding: 2rem;
-    margin-top: 2rem;
-    border-radius: 0.85rem;
-    transition: background 0.4s;
+.conteudo  .inform .increva{
+  display: inline-flex;
+  align-items: center;
+  background: var(--color-title);
+  color: var(--text-color-light);
+  font-weight: 400;
+  height: 3.5rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 0.85rem;
+  transition: background 0.4s;
 }
 
-.increva:hover{
-    opacity: .8;
+.conteudo  .increva:hover{
+  opacity: .8;
 }
 
+.conteudo .inform{
+  text-align: center;
+}
 
+@media (max-width:1080px){
+  .conteudo .programa{
+    width: 100%;
+  }
+
+  .conteudo .requisitos{
+    display: block;
+  }
+
+  .conteudo .requisitos div{
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .conteudo .requisitos .image {
+    width: 70%;
+  }
+
+  .conteudo .requisitos .image {
+    margin-right: auto;
+  }
+}
+
+@media(max-width:755px){
+
+}

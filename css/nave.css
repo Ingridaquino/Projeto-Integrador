@@ -32,7 +32,7 @@ html{
   /* --color-IMAGEM */
   --color-img:rgba(102, 161, 209, 0.925);
   /*Color da linha do houver*/
-  --color-icon:#13d14c;
+  --color-icon:#43b9b3;
 
   /*1rem = 16px (user agent) = 100% (User Agent) */
   font-size: 62.5% /* 10px */
@@ -61,7 +61,7 @@ justify-content: space-around;
 align-items: center;
 font-family:'Poppins', sans-serif;
 font-weight:bold;
-background: var(--color-nav-footer);
+background: var(--text-color-light);
 height: 9rem;
 }
 
@@ -93,7 +93,7 @@ text-decoration: none;
 }
 
 .nav-list li a:hover{
- color: var(--color-houver);
+ color: var(--color-sub-title);
 }
 
 .nav-list li a::after{
@@ -124,7 +124,7 @@ cursor: pointer;
 .mobile-menu div {
 width: 3.2rem;
 height: .5rem;
-background: #fff;
+background:var(--color-title);
 margin: .5rem;
 }
 
@@ -134,11 +134,11 @@ margin: .5rem;
   }
   .nav-list {
     position: absolute;
-    top: 13vh;
+    top: 15vh;
     right: 0;
     width: 30vw;
-    height: 92vh;
-    background:var(--color-nav-footer);
+    height: 95vh;
+    background:var(--text-color-light);;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;

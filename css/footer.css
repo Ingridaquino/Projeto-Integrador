@@ -2,18 +2,18 @@
 .footer{
   padding:2rem 0;
   background-color:var(--color-nav-footer);
+  color: var(--text-color-light);
 }
 
 .footer h3 {
   margin-top:0;
   margin-bottom:1.2rem;
-  font-size:2rem;
+  font-size:2.2rem;
   color: var(--color-title);
   font-weight: 700;
 }
-.footer{
-  font-size: 1.5rem; 
-  color: var(--text-color-light);
+.footer p{
+  font-size: 1.1rem; 
 }
 
 .footer ul {
@@ -21,6 +21,7 @@
   list-style:none;
   line-height:1.6;
   margin-bottom:0;
+  font-size: 1.5rem;
 }
 
 @media (max-width:767px) {
@@ -31,7 +32,6 @@
 
   .footer .item{
     text-align:center;
-    margin-left: 2rem;
     padding-bottom:2.0rem;
   }
 }
