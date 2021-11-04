@@ -129,7 +129,7 @@ body{
   text-decoration: none;
 }
 
-.conteudo  .inform .increva{
+.conteudo  .inform .inscreva{
   display: inline-flex;
   align-items: center;
   background: var(--color-title);
@@ -142,7 +142,7 @@ body{
   transition: background 0.4s;
 }
 
-.conteudo  .increva:hover{
+.conteudo  .inscreva:hover{
   opacity: .8;
 }
 
