@@ -43,3 +43,13 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+
+  
+
+  document.querySelector('.copyright').addEventListener("click", function(){
+    document.querySelector('.main').classList.add('black')
+  })
+
+  document.querySelector('#remove').addEventListener("click", function(){
+    document.querySelector('.main').classList.remove('black')
+  })
