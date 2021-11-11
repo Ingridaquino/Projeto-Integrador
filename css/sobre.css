@@ -1,0 +1,113 @@
+/*MAIN sobre*/
+body{
+    box-sizing: border-box;  
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    'historia image'
+    'mvv  mvv'
+    ;
+}
+
+.main h1{
+    color: var(--color-sub-title);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/*HISTORIA */
+.main .historia{
+    grid-area: historia;
+    margin: 4rem 2rem 1rem 3rem; 
+    padding: 2rem ;
+}
+
+.main .historia p{
+    color: var(--text-color);
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+@media(max-width:1100px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'historia'
+        'image'
+        'mvv'
+        ;
+    }
+    .main .historia{
+        margin: 3rem 1rem 1rem 1rem;  
+        padding: 2rem ;
+        
+    }
+    
+    .main .image{
+        margin-bottom: 1rem;
+        padding:  0;
+    }
+    .main .image img{
+        width: 25%;
+    }
+    .main .mvv{
+        padding: 1rem;
+        margin: 0;
+        flex-direction: column;
+        width: 90%;
+    }     
+}
+
+/*IMAGEM*/
+
+.main .image{
+   margin: auto;
+   grid-area: image;
+   text-align: center;
+   padding: 2rem 0;
+}
+
+.main .image img{
+    width: 60%;
+    box-shadow: 4rem -3rem 0rem var(--color-img);
+    margin: 0 auto;
+}
+
+
+/**Missao, valores e visao*/
+.main .mvv{
+    grid-area: mvv;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+}
+
+.main .mvv div{
+    text-align: center;
+    background:#f7f7f7;
+    margin: 2rem;
+    border-top: .8rem solid var(--color-nav-footer);
+}
+
+
+.main .mvv h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:var(--color-sub-title);
+    padding: 5rem;
+}
+
+
+.main .mvv p{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-align: start;
+    margin: 0 2rem 2rem 2rem;
+}
+

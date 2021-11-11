@@ -39,9 +39,9 @@ body{
 .conteudo .programa p{
   text-align: left;
 }
+
+
 /*IMG*/
-
-
 .main .conteudo img{
   width: 80%;
   margin-top: 2rem;
@@ -49,6 +49,7 @@ body{
 }
 .main .conteudo .image{
   position: relative;
+  margin: auto;
 }
 
 .main .conteudo .image::before{
@@ -89,7 +90,7 @@ body{
 }
 
 .conteudo .requisitos div + div{
-  margin-left: 1rem;
+  margin-left: 4rem;
 }
 
 
@@ -112,7 +113,7 @@ body{
 
 @media(min-width:768px){
   .conteudo .incluso div + div{
-    padding-left: 4rem;
+    padding-left: 10rem;
   }
 
 }
@@ -132,7 +133,7 @@ body{
 .conteudo  .inform .inscreva{
   display: inline-flex;
   align-items: center;
-  background: var(--color-title);
+  background: var(--color-sub-title);
   color: var(--text-color-light);
   font-weight: 400;
   height: 3.5rem;
@@ -150,29 +151,35 @@ body{
   text-align: center;
 }
 
+
+
+
+
 @media (max-width:1080px){
   .conteudo .programa{
     width: 100%;
   }
-
+  
   .conteudo .requisitos{
     display: block;
   }
-
+  
   .conteudo .requisitos div{
     width: 80%;
     margin: 2rem auto;
   }
-
+  
   .conteudo .requisitos .image {
     width: 70%;
   }
-
+  
   .conteudo .requisitos .image {
     margin-right: auto;
   }
+  .main .conteudo .image::before{
+    height: 70%;
+    width: 70%;
+  }
 }
 
-@media(max-width:755px){
 
-}

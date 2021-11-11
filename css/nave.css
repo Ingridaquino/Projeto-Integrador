@@ -19,51 +19,51 @@ html{
   --text-color-light: hsl(0 0% 98%);
   
   /*COLOR NAVEGADOR E FOOTER*/
-  --color-nav-footer: rgba(17, 112, 189, 0.849);
+  --color-nav-footer: rgb(17, 20, 189);
   
   /*COLOR TITULO - nav */
-  --color-title:#0a0a66;
-  
+  --color-title:  #050505ee;
+ 
   /*COLOR TITULO - nav */
-  --color-houver:rgb(14, 97, 51);
+  --color-houver:rgb(51, 21, 133);
 
   /*color do title */
-  --color-sub-title: rgba(14, 124, 187, 0.644);
+  --color-sub-title: #0a0a66;
   /* --color-IMAGEM */
   --color-img:rgba(102, 161, 209, 0.925);
   /*Color da linha do houver*/
-  --color-icon:#43b9b3;
+  --color-icon:#0bb357;
 
   /*1rem = 16px (user agent) = 100% (User Agent) */
-  font-size: 62.5% /* 10px */
+  font-size: 62.5%; /* 10px */
 }
 
 html{
-scroll-behavior: smooth; /* Rolagem de leve na página */
+  scroll-behavior: smooth; /* Rolagem de leve na página */
 }
 
 li{
-list-style: none;
+  list-style: none;
 }
 
 /*MENU*/
 .header{
-box-shadow: 0 0 12px rgba(0, 0, 0, 0.658);
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.658);
 /*SOMBRA ABAIXO*/
 }
 
 .logo img {
-width: 36%;
+  width: 36%;
 }
 
 .nave {
-display: flex;
-justify-content: space-around;
-align-items: center;
-font-family:'Poppins', sans-serif;
-font-weight:bold;
-background: var(--text-color-light);
-height: 9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family:'Poppins', sans-serif;
+  font-weight:bold;
+  background: var(--text-color-light);
+  height: 9rem;
 }
 
 .nave a{
@@ -71,71 +71,77 @@ height: 9rem;
   color: var(--color-title);
 }
 
+.nave .doe{
+  color: var(--color-nav-footer);
+}
+
+
 .nav-list {
-list-style: none;
-display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .nav-list li {
-/* letter-spacing: .1rem; */
-margin-left: 2.2rem;
-border-radius:.4rem;
-/* color: var(--color-sub-title); */
+  letter-spacing: .1rem;
+  margin-left: 2.2rem;
+  border-radius:.4rem;
+
 }
 
 
 /* 
 Efeito de traçinho no menu */
 .nav-list li a{
-transition: color 0.3s ease-in; /* Colocar o color, para ocorrer a transição somente na cor */
-position: relative;
-padding: 1rem;
-text-decoration: none;
+  transition: color 0.3s ease-in; /* Colocar o color, para ocorrer a transição somente na cor */
+  position: relative;
+  padding: 1rem;
+  text-decoration: none;
 }
 
 .nav-list li a:hover{
- color: var(--color-sub-title);
+  opacity: .8;
 }
 
 .nav-list li a::after{
-content: '';
-width: 0%; /*Para dar o efeito dele crescendo */
-height: .2rem;
-background: var(--color-icon);
-position: absolute;
-left: 0;
-bottom: -.2rem;
-transition: width 0.2s;  /*Para dar o efeito dele crescendo */
+  content: '';
+  width: 0%; /*Para dar o efeito dele crescendo */
+  height: .2rem;
+  background: var(--color-icon);
+  position: absolute;
+  left: 0;
+  bottom: -.2rem;
+  transition: width 0.2s;  /*Para dar o efeito dele crescendo */
 }
 
 .nav-list li a:hover::after{
-width: 100%;  /*Para dar o efeito dele crescendo */
+  width: 100%;  /*Para dar o efeito dele crescendo */
 }
 
 .nav-list li{
-text-align: center;
+  text-align: center;
 }
 
 /*Menu Hamburgue*/
 .mobile-menu {
-display: none;
-cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
 .mobile-menu div {
-width: 3.2rem;
-height: .5rem;
-background:var(--color-title);
-margin: .5rem;
+  width: 3.2rem;
+  height: .5rem;
+  background:var(--color-title);
+  margin: .5rem;
+  transition: 0.3s ease-in;
 }
 
-@media (max-width:1100px) {
+@media (max-width:999px) {
   body {
     overflow-x: hidden;
   }
   .nav-list {
     position: absolute;
-    top: 17vh;
+    top: 15vh;
     right: 0;
     width: 45vh;
     height: 95vh;
@@ -144,31 +150,22 @@ margin: .5rem;
     align-items: center;
     justify-content: space-around;
     transform: translateX(200%);
-    transition: transform .7s linear;
     z-index: 1;
+    overflow: hidden;
   }
   
   .nav-list li {
     margin-left: 0;
+    opacity: 0;
   }
   .mobile-menu {
     display: block;
   }
+
 }
 
 .nav-list.active {
   transform: translateX(0);
-}
-
-@media (max-width: 300px){
-  body{
-    font-size: .25rem;
-    overflow-x: hidden;
-  }
-  .nav-list {
-    position: absolute;
-    width:45vh;
-  }
 }
 
 
@@ -184,6 +181,20 @@ margin: .5rem;
     
   }
 }
+
+@media (max-width: 300px){
+  body{
+    font-size: .25rem;
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    width:45vh;
+    overflow: hidden;
+  }
+}
+
+
 
 /* X DE FECHAMENTO */
 .mobile-menu.active .line1 {

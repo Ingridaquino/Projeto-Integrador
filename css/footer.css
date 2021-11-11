@@ -40,11 +40,11 @@
   margin-bottom:3.6rem;
 }
 
-/* @media (max-width:767px) {
+@media (max-width:767px) {
   .footer .item.text {
     margin-bottom:0;
   }
-} */
+}
 
 .footer .item.text p {
   opacity:0.;
@@ -103,7 +103,7 @@ transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1635736081 .shape-fill {
-  fill: #18d3d3c7;
+  fill: #18d3cad7;
 }
 
 
