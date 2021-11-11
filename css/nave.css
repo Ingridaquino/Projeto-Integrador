@@ -135,7 +135,7 @@ Efeito de traçinho no menu */
   transition: 0.3s ease-in;
 }
 
-@media (max-width:999px) {
+@media (max-width:1100px) {
   body {
     overflow-x: hidden;
   }
