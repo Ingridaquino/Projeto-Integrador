@@ -1,9 +1,13 @@
+
 /*MAIN sobre*/
 body{
     box-sizing: border-box;  
+    background: rgba(180, 172, 172, 0.123);
 }
 
 .main{
+    margin:1rem;
+    background: #fff;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 1fr;
@@ -24,6 +28,7 @@ body{
     grid-area: historia;
     margin: 4rem 2rem 1rem 3rem; 
     padding: 2rem ;
+
 }
 
 .main .historia p{
@@ -87,8 +92,8 @@ body{
 }
 
 .main .mvv div{
+    background: rgba(180, 172, 172, 0.123);
     text-align: center;
-    background:#f7f7f7;
     margin: 2rem;
     border-top: .8rem solid var(--color-nav-footer);
 }
@@ -107,5 +112,6 @@ body{
     color: var(--text-color);
     text-align: start;
     margin: 0 2rem 2rem 2rem;
+    line-height: 1.8;
 }
 

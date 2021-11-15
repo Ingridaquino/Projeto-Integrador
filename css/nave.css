@@ -62,7 +62,7 @@ li{
   align-items: center;
   font-family:'Poppins', sans-serif;
   font-weight:bold;
-  background: var(--text-color-light);
+  background: #fff;
   height: 9rem;
 }
 

@@ -1,9 +1,12 @@
 /*MAIN*/
 body{
+  background: rgba(180, 172, 172, 0.123);
   box-sizing: border-box;  
 }
 
 .main .conteudo{
+  background: #fff;
+  margin: 1rem;
   padding: 1rem  2rem;
   display: flex;
   flex-direction: column;
@@ -42,17 +45,17 @@ body{
 
 
 /*IMG*/
-.main .conteudo img{
+.main .conteudo .requisitos img{
   width: 80%;
   margin-top: 2rem;
   margin-left: 10rem;
 }
-.main .conteudo .image{
+.main .conteudo .requisitos .image{
   position: relative;
   margin: auto;
 }
 
-.main .conteudo .image::before{
+.main .conteudo .requisitos .image::before{
   content: '';
   height: 80%;
   width: 80%;
@@ -60,18 +63,19 @@ body{
   position: absolute;
   top: -1.1%;
   left: 2%;
-  z-index: -1; /* ´Fica atrás da imagem */
+  z-index: 0; /* ´Fica atrás da imagem */
 }
 
-.main .conteudo .image img,
-.main .conteudo .image::before{
+.main .conteudo .requisitos .image img,
+.main .conteudo .requisitos .image::before{
   border-radius: 0.30rem;
 }
 
-.main .conteudo .image img{
+.main .conteudo  .image img{
   position: relative;
   right: 2.93rem;
 }
+
 
 /*REQUISITOS*/
 .conteudo .requisitos{

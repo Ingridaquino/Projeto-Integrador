@@ -1,0 +1,87 @@
+/*MAIN sobre*/
+body{
+    box-sizing: border-box;  
+    background: rgba(180, 172, 172, 0.123);
+}
+h1,h5{
+    color: var(--color-sub-title);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.conteudo-home{
+    margin:1rem;
+    background: #fff;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.conteudo-home h1{
+    color: var(--color-sub-title);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+
+/*Extinção*/
+.conteudo-home  .extincao{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 3rem;
+}
+
+.conteudo-home .extincao p{
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+/*Banner doe*/
+.divul{
+    box-sizing: border-box;
+    width: 100%;
+}
+.divul .banner{
+    background-color: #ffffff;
+    border: .2rem solid #000;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    'img adote click'
+    ;
+   
+}
+
+.divul .banner img{
+    grid-area: img;
+    width:55%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.divul .banner .adote{
+    grid-area: adote; 
+    padding: 4rem 0 ;   
+}
+.divul .banner .adote span{
+    color: var(--text-color);
+}
+
+.divul .banner .click{
+    grid-area: click;
+    text-align: center;  
+    margin: 4rem ;
+}
+
+.divul .banner .click a{
+    color: var(--color-title);
+}
