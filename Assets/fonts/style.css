@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?l74pxn');
+  src:  url('fonts/icomoon.eot?l74pxn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l74pxn') format('truetype'),
+    url('fonts/icomoon.woff?l74pxn') format('woff'),
+    url('fonts/icomoon.svg?l74pxn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-open-menu-6208:before {
+  content: "\e920";
+}
+.icon-close-877:before {
+  content: "\e921";
+}
+.icon-animal_domestic_pet_turtle_wild_icon:before {
+  content: "\e900";
+}
+.icon-animal_domestic_octopus_pet_sea_icon:before {
+  content: "\e901";
+}
+.icon-animal_aquarium_domestic_fish_pet_icon-1:before {
+  content: "\e902";
+}
+.icon-animal_crab_domestic_pet_wild_icon:before {
+  content: "\e903";
+}
+.icon-animal_aquarium_bankfish_domesticter_pet_icon:before {
+  content: "\e904";
+}
+.icon-aquarium_dolphin_fish_mammal_water_icon:before {
+  content: "\e905";
+}
+.icon-dangerous_invertebrate_jellyfish_marine_medusa_icon:before {
+  content: "\e906";
+}
+.icon-devil_fish_mobula_ocean_ray_icon:before {
+  content: "\e907";
+}
+.icon-ocean_octopus_siphon_tentacles_wildlife_icon:before {
+  content: "\e908";
+}
+.icon-ocean_sea_shell_turtle_wildlife_icon:before {
+  content: "\e909";
+}
+.icon-kraken_monster_nature_ocean_octopus_icon:before {
+  content: "\e90a";
+}
+.icon-fish_nature_ocean_sea_shark_icon:before {
+  content: "\e90b";
+}
+.icon-animal_aquatic_nature_ocean_sea_icon:before {
+  content: "\e90c";
+}
+.icon-fish_ocean_sea_swim_trip_icon:before {
+  content: "\e90d";
+}
+.icon-crust_peel_sea_seafood_shell_icon:before {
+  content: "\e90e";
+}
+.icon-coral_sea_fish_ocean_plant_icon:before {
+  content: "\e90f";
+}
+.icon-fish-animals-svgrepo-com:before {
+  content: "\e910";
+}
+.icon-reshot-icon-crab-6DLGZ5Q3EF:before {
+  content: "\e911";
+}
+.icon-reshot-icon-fish-B52GPLE9RV:before {
+  content: "\e912";
+}
+.icon-reshot-icon-oceans-E7Q6JK5Z24:before {
+  content: "\e913";
+}
+.icon-reshot-icon-sea-life-JH47BYPE9Z:before {
+  content: "\e914";
+}
+.icon-sea-shell-svgrepo-com:before {
+  content: "\e915";
+}
+.icon-sea-turtle-svgrepo-com:before {
+  content: "\e916";
+}
+.icon-turtle:before {
+  content: "\e917";
+}
+.icon-turtle-svgrepo-com:before {
+  content: "\e918";
+}
+.icon-fish-line:before {
+  content: "\e919";
+}
+.icon-reshot-icon-crab-6DLGZ5Q3EF1:before {
+  content: "\e91a";
+}
+.icon-reshot-icon-fish-B52GPLE9RV1:before {
+  content: "\e91b";
+}
+.icon-reshot-icon-oceans-E7Q6JK5Z241:before {
+  content: "\e91c";
+}
+.icon-reshot-icon-sea-life-JH47BYPE9Z1:before {
+  content: "\e91d";
+}
+.icon-sea-horse-svgrepo-com:before {
+  content: "\e91e";
+}
+.icon-whale-animals-svgrepo-com:before {
+  content: "\e91f";
+}

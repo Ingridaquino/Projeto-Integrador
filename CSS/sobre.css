@@ -1,0 +1,158 @@
+
+/* ====== SOBRE================================ */
+.img-sobre{
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.img-sobre img{
+    padding: 5rem 5rem;
+    max-width: 100%;
+}
+
+.img-sobre img:hover{
+    -webkit-transform:scale(1.);
+    transform:scale(1);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+
+#sobre{
+    overflow: hidden;
+}
+
+#sobre .container{
+    margin: 0 ;
+    
+}
+
+#sobre .image{
+    position: relative;
+}
+
+#sobre .image::before{
+    content: '';
+    height: 50%;
+    width: 100%;
+    /* background: var(--base-color-second); */
+    border-right: 5rem solid  var(--base-color-second);
+    position: absolute;
+    bottom: 37.8%;
+    left: 5.7%;
+    z-index: -1; /* ´Fica atrás da imagem */
+}
+
+#sobre .image img,
+#sobre .image::before{
+    border-radius: 0.25rem;
+}
+
+#sobre .image img{
+    position: relative;
+    top: 20.8%;
+    right: -2.93rem;
+    width: 80%;
+}
+
+
+#sobre .text{
+    text-align: center;   
+    padding: 0 2rem;
+}
+
+#sobre .text h1{
+    margin-bottom: 1rem;
+}
+
+#sobre .text p{
+    margin-bottom: 2rem;
+}
+
+span{
+    color: var(--base-color);
+}
+
+
+/* ====== serviços ================================ */
+#services-sobre .cards .card + .card{
+    margin-top:5rem ;
+}
+
+
+/* ======= RESPONSIVO - MEDIA QUERIES ================================= */
+/* EXTRA LARGE DEVICES: +1200 > */
+@media (min-width: 1200px){
+    /*sobre*/
+    #sobre .container{
+        grid-auto-flow: column;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    
+    
+    #sobre .image{
+        order: 1;
+        margin: 1rem 1rem;
+    }
+   
+    #sobre .text{  
+        order: 0;
+        max-width: 90rem;
+        text-align: left;
+    }
+
+    main{
+        /*Para desgrudar o conteudo do menu */
+        margin-top: var(--header-height);
+ 
+    }
+
+}
+
+
+
+/* Large devices: +1023 >*/
+/* Large devices: +992 >*/
+@media (min-width: 992px){
+    :root{
+        --title-font-size: 2.25rem;
+        --subtitle-font-size: 1.125rem;
+    }
+
+    #sobre .text{  
+        order: 0;
+        max-width: 90rem;
+        text-align: left;
+        margin: 3rem 0;
+      
+    }
+    #sobre .image img{
+        margin-bottom: 5rem;
+     }
+
+}
+/* Medium devices: +767 >*/
+@media(max-width: 760px){
+    #sobre .image{
+        order: 1;
+    }
+
+    #sobre .image img{
+       width: 70%;
+       margin-bottom: 4rem;
+    }
+   
+    #sobre .text{  
+        order: 0;
+        max-width: 90rem;
+        text-align: left;
+        margin: 2rem 2rem;
+    }
+}
+
+
+
