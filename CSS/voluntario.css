@@ -1,0 +1,332 @@
+#voluntario{
+    overflow: hidden;
+    background-image: url(../Img/pexels-photo-1645028.jpeg);      
+}
+#voluntario .text{
+    margin-right: 1.5rem;
+    text-align: start;
+    background: rgba(165, 241, 234, 0.493);
+    padding: 2rem 6rem;
+    width: 100%;
+}
+
+#voluntario .text h1{
+    margin-bottom: 1rem;
+}
+
+
+#voluntario .text p{
+    margin-bottom: 2rem;
+}
+
+/* ====== requisitos ================================ */
+/* #requisitos .container{
+    margin: 0;  
+} */
+
+#requisitos .image{
+    position: relative;
+}
+
+#requisitos .text{
+    margin-left:1rem;
+    margin-right: 1rem;
+    text-align:start;
+}
+
+#requisitos .text ul{
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+#requisitos .text ul li{
+    list-style: circle;
+}
+
+
+/* ====== serviços ================================ */
+
+
+
+
+/*===== FOTOS DOS VOLUNTARIOS ====== */
+#caroseul{
+    margin: 0 auto;
+}
+#caroseul .foto{
+    margin: 0 auto;
+    width: 70%;
+}
+
+/*====  CONTACT ============================ */
+#contact .grid {
+    gap: 4rem;
+  }
+  
+  #contact .text p {
+    margin-bottom: 2rem;
+  }
+  
+  #contact .button i,
+  #contact ul li i {
+    font-size: 1.5rem;
+    margin-right: 0.625rem;
+  }
+  
+  #contact ul.grid {
+    gap: 2rem;
+  }
+  
+  #contact ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  #contact ul li i {
+    color: var(--base-color);
+  }
+  
+
+  /* ====== Footer================================ */
+  footer{
+      background:var(--base-color);
+  }
+
+  footer.section{
+      padding: 3rem 0;
+  }
+
+  footer .brand .logo{
+      display: inline-block;
+      margin-bottom: 1rem;
+  }
+
+  footer .brand p{
+      color: var(--text-color-light);
+      /* margin-bottom: 0.75rem; */
+  }
+
+  footer i{
+      font-size: 2.5rem;
+      color: var(--text-color-light);
+  }
+
+  footer .social a {
+      display: inline-block; /*Pois o a é inline, ele não recebe o efeito*/
+      margin-right: 2rem;
+      transition: .5s; /*Para dar efeito no icon da rede social*/
+  }
+
+  footer .social a:hover{
+      transform: translateY(-8px);
+  }
+
+  /*back to top */
+.icon-reshot-icon-oceans-E7Q6JK5Z241{
+    font-size: 2rem;
+}
+
+.back-to-top{
+    background:rgba(25, 133, 133, 0.678);
+    color: var(--text-color-light);
+
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+
+    padding: .5rem;
+    clip-path: circle();
+    line-height: 0;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    transform:translateY(100%);
+  }
+
+.back-to-top.show{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ======= RESPONSIVO - MEDIA QUERIES ================================= */
+EXTRA LARGE DEVICES: +1200 >
+@media (min-width: 1200px){
+    .container{
+        max-width: 1120px;
+        margin-left: auto ;
+        margin-right: auto;
+    }
+
+    .section{
+        padding: 10rem 0 ;
+    }
+
+      .section header,
+      #testimonials header {
+        max-width: 32rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .button {
+        height: 3.125rem;
+      }
+
+    /*Menu*/
+    nav .menu{
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+    }
+
+    nav .menu ul{
+        display: flex;
+        gap: 2rem;
+    }
+
+    nav .menu ul li a.title{
+        font: 600 1.5rem 'Poppins', sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    nav .menu ul li a.title.active {
+        font-weight: bold;
+        -webkit-font-smoothing: auto;
+      }
+
+    nav  .icon-open-menu-6208{
+        display: none;
+    }
+    /*voluntario*/
+    #voluntario .container{
+        grid-auto-flow: column;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    
+    #voluntario .image{
+        order: 1;
+    }
+
+    #voluntario .text{
+        order: 0;
+        max-width: 24rem;
+        text-align: left;
+    }
+
+    main{
+        /*Para desgrudar o conteudo do menu */
+        margin-top: var(--header-height);
+    }
+
+     /* requisitos */
+  #requisitos .container {
+    margin: 0 auto;
+    grid-auto-flow: column;
+  }
+
+  /* services */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  /* testimonials */
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonial{
+    flex-grow: 1;
+    word-wrap: break-word;
+}
+
+  /* contact */
+  #contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+  }
+
+  #contact .text {
+    max-width: 25rem;
+  }
+
+  /* footer */
+  footer.section {
+    padding: 3.75rem 0;
+  }
+
+  footer .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .logo {
+    width: 50%;
+  }
+}
+/* Large devices: +1023 >*/
+/* Large devices: +992 >*/
+@media (min-width: 992px){
+    :root{
+        --title-font-size: 2.25rem;
+        --subtitle-font-size: 1.125rem;
+    }
+   
+}
+/* Medium devices: +767 >*/
+/* @media(max-width: 1220px){
+    #requisitos{
+        grid-auto-flow: column;
+        justify-content: space-between;
+        margin: 2rem 4rem 0 4rem;
+    }
+    
+    #requisitos .image img{
+        width: 55%;
+        margin-left: 15rem;
+    }
+    
+    #requisitos .image::before{
+        height: 100%;
+        width: 100%;
+        top: -11.3%;
+        left: -25%;
+    }
+    
+    #voluntario .image{
+        width: 65%;
+    }
+    
+    #voluntario .image::before{
+        height: 100%;
+        width: 100%;
+        top: -1.1%;
+        left: 19.7%;   
+    }
+
+    .button {
+        height: 4.125rem;
+    }
+
+    .cards {
+        margin: 0 5rem;
+    }
+    #testimonials h2{
+        margin: 0 4rem;
+    }
+    
+    .testimonials{
+        margin: 0 4rem;
+    }
+    
+    
+} */
