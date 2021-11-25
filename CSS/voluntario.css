@@ -4,8 +4,9 @@ a:hover{
 
 #voluntario{
     overflow: hidden;
-    background-image: url(../Img/pexels-photo-7925841.jpeg);    
-    background-size: 100%;  
+    background-image: url(../Img/pexels-photo-7714552.jpeg);    
+    background-size: 100vw;
+    background-repeat: no-repeat;
 }
 #voluntario .text{
     margin-right: 1.5rem;
@@ -137,55 +138,7 @@ a:hover{
 }
 
 /* ======= RESPONSIVO - MEDIA QUERIES ================================= */
-@media (min-width: 1200px){
-    .container{
-        max-width: 1120px;
-        margin-left: auto ;
-        margin-right: auto;
-    }
-
-    .section{
-        padding: 10rem 0 ;
-    }
-
-      .section header,
-      #testimonials header {
-        max-width: 32rem;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    
-      .button {
-        height: 3.125rem;
-      }
-
-    /* Menu */
-    nav .menu{
-        opacity: 1;
-        visibility: visible;
-        top: 0;
-    }
-
-    nav .menu ul{
-        display: flex;
-        gap: 2rem;
-    }
-
-    nav .menu ul li a.title{
-        font: 600 1.5rem 'Poppins', sans-serif;
-        -webkit-font-smoothing: antialiased;
-    }
-
-    nav .menu ul li a.title.active {
-        font-weight: bold;
-        -webkit-font-smoothing: auto;
-      }
-
-    nav  .icon-open-menu-6208{
-        display: none;
-    }
-
+@media (min-width: 1200px){ 
     #voluntario .container{
         grid-auto-flow: column;
         justify-content: space-between;
@@ -198,46 +151,8 @@ a:hover{
         text-align: left;
     }
 
-    main{
-        /*Para desgrudar o conteudo do menu */
-        margin-top: var(--header-height);
-    }
 
-     /* requisitos */
-  #requisitos .container {
-    margin: 0 auto;
-    grid-auto-flow: column;
-  }
-
-  /* services */
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .card {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  /* testimonials */
-  #testimonials .container {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .testimonial{
-    flex-grow: 1;
-    word-wrap: break-word;
 }
-
-  /* contact */
-  #contact .container {
-    grid-auto-flow: column;
-    align-items: center;
-  }
-
-  #contact .text {
-    max-width: 25rem;
-  }
 
 /* Large devices: +1023 >*/
 /* Large devices: +992 >*/
@@ -246,14 +161,40 @@ a:hover{
         --title-font-size: 2.25rem;
         --subtitle-font-size: 1.125rem;
     }
+    #voluntario .container{
+        margin: 0 auto;
+       
+    }
+    #requisitos .container{
+        margin: 0 auto;
+    }
+
+    #lista-incluso .container{
+        margin: 4rem auto;
+    }
+
+    #lista-incluso .container div + div{
+        margin-top: 10rem;
+    }
+
+   #caroseul .container{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #inscricao .container{
+        margin: 0 auto;
+    }
+
+
    
 }
 /* Medium devices: +767 >*/
-@media(max-width: 1220px){
+@media(max-width: 950px){
     #requisitos{
+        background-color: rgb(112, 95, 160);
         grid-auto-flow: column;
-        justify-content: space-between;
-        margin: 2rem 4rem 0 4rem;
+        margin: 0 5rem;
     }
     
     #requisitos .image img{
