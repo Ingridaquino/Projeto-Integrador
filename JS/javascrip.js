@@ -66,6 +66,15 @@ scrollReveal.reveal(
   { interval: 100 }
 )
 
+scrollReveal.reveal(
+  `#voluntario .text,
+  #requisitos .text,
+  #lista.incluso .text, #lista-incluso .text,
+  #caroseul .container
+  `,
+  { interval: 100 }
+)
+
 
 /* Botão voltar para o topo */
 const backToTopButton = document.querySelector('.back-to-top')

@@ -1,11 +1,16 @@
+a:hover{
+    text-decoration: none;
+}
+
 #voluntario{
     overflow: hidden;
-    background-image: url(../Img/pexels-photo-1645028.jpeg);      
+    background-image: url(../Img/pexels-photo-7925841.jpeg);    
+    background-size: 100%;  
 }
 #voluntario .text{
     margin-right: 1.5rem;
     text-align: start;
-    background: rgba(165, 241, 234, 0.493);
+    background: rgba(247, 247, 247, 0.733);
     padding: 2rem 6rem;
     width: 100%;
 }
@@ -39,14 +44,27 @@
     line-height: 1.5;
 }
 
-#requisitos .text ul li{
+#requisitos .text .list-volu > li{
     list-style: circle;
 }
 
 
-/* ====== serviços ================================ */
+/* ====== Inclusos ================================ */
+#lista-incluso{
+     display: flex;
+     justify-content: space-between; 
+     width: 100%;  
+     margin: 0 auto;
+}
+
+#lista-incluso div{
+    padding: 0 4rem;
+}
 
 
+#lista-incluso ul li{
+    list-style: circle;
+}
 
 
 /*===== FOTOS DOS VOLUNTARIOS ====== */
@@ -87,39 +105,7 @@
   }
   
 
-  /* ====== Footer================================ */
-  footer{
-      background:var(--base-color);
-  }
-
-  footer.section{
-      padding: 3rem 0;
-  }
-
-  footer .brand .logo{
-      display: inline-block;
-      margin-bottom: 1rem;
-  }
-
-  footer .brand p{
-      color: var(--text-color-light);
-      /* margin-bottom: 0.75rem; */
-  }
-
-  footer i{
-      font-size: 2.5rem;
-      color: var(--text-color-light);
-  }
-
-  footer .social a {
-      display: inline-block; /*Pois o a é inline, ele não recebe o efeito*/
-      margin-right: 2rem;
-      transition: .5s; /*Para dar efeito no icon da rede social*/
-  }
-
-  footer .social a:hover{
-      transform: translateY(-8px);
-  }
+  
 
   /*back to top */
 .icon-reshot-icon-oceans-E7Q6JK5Z241{
@@ -151,7 +137,6 @@
 }
 
 /* ======= RESPONSIVO - MEDIA QUERIES ================================= */
-EXTRA LARGE DEVICES: +1200 >
 @media (min-width: 1200px){
     .container{
         max-width: 1120px;
@@ -175,7 +160,7 @@ EXTRA LARGE DEVICES: +1200 >
         height: 3.125rem;
       }
 
-    /*Menu*/
+    /* Menu */
     nav .menu{
         opacity: 1;
         visibility: visible;
@@ -200,20 +185,16 @@ EXTRA LARGE DEVICES: +1200 >
     nav  .icon-open-menu-6208{
         display: none;
     }
-    /*voluntario*/
+
     #voluntario .container{
         grid-auto-flow: column;
         justify-content: space-between;
         margin: 0 auto;
     }
     
-    #voluntario .image{
-        order: 1;
-    }
-
+   
     #voluntario .text{
-        order: 0;
-        max-width: 24rem;
+       
         text-align: left;
     }
 
@@ -258,21 +239,6 @@ EXTRA LARGE DEVICES: +1200 >
     max-width: 25rem;
   }
 
-  /* footer */
-  footer.section {
-    padding: 3.75rem 0;
-  }
-
-  footer .container {
-    grid-auto-flow: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  footer .logo {
-    width: 50%;
-  }
-}
 /* Large devices: +1023 >*/
 /* Large devices: +992 >*/
 @media (min-width: 992px){
@@ -283,7 +249,7 @@ EXTRA LARGE DEVICES: +1200 >
    
 }
 /* Medium devices: +767 >*/
-/* @media(max-width: 1220px){
+@media(max-width: 1220px){
     #requisitos{
         grid-auto-flow: column;
         justify-content: space-between;
@@ -329,4 +295,4 @@ EXTRA LARGE DEVICES: +1200 >
     }
     
     
-} */
+}

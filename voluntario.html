@@ -43,11 +43,10 @@
              <!--Home-->
              <!-- <div class="fundo"><img src="./Img/fundopisci.jpg" alt=""></div> -->
             <main>
-                <div><section id="home"></section></div>
                 <section class="section" id="voluntario">
                     <div class="container grid">
                         <div class="text">
-                            <h2 class="title">Sobre o <span>programa</span> </h2>
+                            <h2 class="title">Sobre o <span class="span-home">programa</span> </h2>
                             <p>Os voluntários do Squirtle trabalharão para combater as ameaças às populações de tartarugas. 
                             Durante  o programa, os voluntários auxiliarão no resgate aos ovos de tartarugas marinhas, 
                             farão rondas noturnas, acompanharão o comportamento dos animais no período de desova que ocorre no período de junho a outubro, 
@@ -89,10 +88,55 @@
                     <!--fim do About-->
                     
                     <div class="divider-2"></div> <!--Para fazer a linha em gradiente */--> 
+
+                    <section class="section" >
+                        <div class="container" id="lista-incluso">
+                            <div class="text">
+                                <header>
+                                    <h2 class="title">O que <span>está incluído</span> </h2>
+                                </header> 
                     
-                    <!-- SERVICES-->
+                                <ul class="list-inclu" >
+                                    <li>Atendimento personalizado e aconselhamento;</li>
+                                    <li>Seminário de boas-vindas;</li>
+                                    <li>Um tutor que oferece apoio e assistência sempre que for necessário;</li>
+                                    <li>Telefone de emergência as 24 horas;</li>
+                                    <li>Workshop sobre as diferenças culturais, e sobre como desenvolver com sucesso um voluntariado;</li>
+                                    <li>Acompanhamento regular durante todo o tempo do período do programa;</li>
+                                    <li>Certificado reconhecido internacionalmente após a conclusão do programa;</li>
+                                    <li>Manual do voluntário;</li>
+                                    <li>Alojamento e serviço de transfer do aeroporto na chegada.</li>
+                                </ul> 
+                            </div>
+    
+                            <div class="text">
+                                <header>
+                                    <h2 class="title">O que não <span>está incluído</span> </h2> 
+                                </header>
+                                
+                                <ul class="list-inclu">
+                                    <li>Passagem aérea</li>
+                                    <li>Seguro médico</li>
+                                    <li>Custos com vistos</li>
+                                    <li>Excursões</li>
+                                    <li>Taxas aeroportuárias internacionais e domésticas</li>
+                                    <li>Equipamento pessoal</li>
+                                    <li>Despesas com visto</li>
+                                    <li>Refeições (Exceto café da manhã, que é oferecido)</li>       
+                                </ul>   
+                            </div>
+                        </div>          
+                    </section>
+                    
+                    <div class="divider-2"></div>
+                    
+                    <!-- Carrosseul-->
                     <section class="section" id="caroseul">
                         <div class="container grid">
+                            
+                            <header>
+                                <h2 class="title">Fotos dos <span>Voluntários</span></h2>
+                            </header>
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner foto">
                                   <div class="carousel-item active">
@@ -116,61 +160,68 @@
                             </div>     
                         </div>
                     </section>
-                 <!--FIM DO SERVICES -->
-                 <div class="divider-1"></div>
-                         <!-- TESTIMONIALS-->
-                         <!-- <section class="section" id="testimonials">
-                            <div class="container" id="carouselExampleSlidesOnly">
-                                <header>
-                                    <h2 class="title">Fotos dos <span>voluntários</span></h2>
-                                </header>
-
-                                <div class="testimonials swiper-container swiper mySwiper">
-                                    <div class="swiper-wrapper"> 
-                                        <div class="testimonial swiper-slide">
-                                            <img class="fotos"  src="./Img/9351aca09591d9c216071316c9a8aa8d 1.svg" alt=""> 
-                                        </div>  
-                                        <div class="testimonial swiper-slide">
-                                            <img class="fotos"  src="./Img/7de7cc76f7e48cfc33d736b55b716979 1.svg" alt=""> 
-                                        </div> 
-                                        <div class="testimonial swiper-slide">
-                                            <img class="fotos"  src="./Img/457dac243bc1a9f64a864015fc1d9b22 1.svg" alt=""> 
-                                        </div> 
-                                    </div>      
-                                    If we need pagination -->   
-                                    <!-- <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"></div>
-                                </div>
-                            </div>
-                        </section> -->
-                 <!--FIM DO TESTIMONIALS-->
-
-
+                 <!--FIM DO CARROSSEUL -->
 
                  <div class="divider-2"></div>
                 <!-- CONTACT -->
                 <section class="section" id="contact">
                     <div class="container grid">
                         <div class="text">
-                            <h2 class="title">Adote um <span>ninho</span> </h2>
+                            <h2 class="title">Seja um <span>Voluntários - Squirtle</span> </h2>
                             <p>
                             Entre em contato com o Squirtle, queremos tirar suas dúvidas.
                             </p>
-                            <a href="https://api.whatsapp.com/send?phone=+5598585878&text=Oi! Gostaria de ser um voluntário" class="button"
-                            target="_blank"><i class="icon-turtle"></i></a>
-                        </div>
+                            <!-- Botão para acionar modal -->
+                            <button type="button" class="btn button" data-toggle="modal" data-target="#ModalLongoExemplo">
+                            Inscreva-se
+                            </button>
 
-                        <div class="links">
-                            <h4>Parceiros:</h4>
-                            <br>
-                            <ul class="grid">
-                                <li>IOS - Instituição da Oportunida Social</l>
-                                <li>TOTVS</li>
-                                <li>Brasscom</li>
-                            </ul>
+                        <!-- Modal -->
+                            <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="TituloModalLongoExemplo">Quer ser nosso voluntário? Complete o formulário abaixo e aguarde o nosso contato!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <form  action="#" method="POST">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <label for="nome">Nome</label>
+                                                    <input type="text" class="form-control" id="nome" placeholder="Nome">
+                                                </div>
+                                                <div class="col">
+                                                    <label for="sobrenome">Sobrenome</label>
+                                                    <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email</label>
+                                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
+                                                <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="validationTextarea">Por que quer ser voluntário?</label>
+                                                <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                                            </div>
+                                                <button type="submit" class="btn button" id="botaoEnviar">Enviar</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div>
+                        <img src="./Img/pexels-photo-1645028.jpeg" alt="">
+                    </div>
                 </section>
-                <div class="divider-1"></div>   
             </main>
 
                 <footer class="section">
@@ -195,7 +246,7 @@
                     </div>
                 </footer>
 
-                <a href="#home" class="back-to-top"><i class="icon-reshot-icon-oceans-E7Q6JK5Z241"></i></a>
+                <a href="#voluntario" class="back-to-top"><i class="icon-reshot-icon-oceans-E7Q6JK5Z241"></i></a>
               
            <!--Script-->
             <!--SWIPE-->
@@ -209,6 +260,7 @@
 
             <!--JavaScrip-->
             <script src="./JS/javascrip.js"></script>
+            <script src="./JS/form.js"></script>
             
         </body>
     </html>
