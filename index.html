@@ -5,13 +5,17 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--BOOTSTRAP-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
             <!--Icones-->
-            <link rel="stylesheet" href="./Assets/fonts/style.css">
-              <!-- Swiper -->
+            <link rel="stylesheet" href="./Assets/fonts/style.css">   
+            <link rel="stylesheet" href="./Assetss/fonts/style.css">
+            <!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/9548c1dc8d/UntitledProject/style.css"> -->
+            <!-- Swiper -->
             <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
             <!--style-->
             <link rel="stylesheet" href="./CSS/estilo.css">
+            <link rel="stylesheet" href="./CSS/footer.css">
             <!--Fonts-->
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +32,7 @@
                            <li><a class="title" href="./index.html">Home</a></li>
                            <li><a class="title" href="./sobre.html">Sobre</a></li>
                            <li><a class="title" href="./voluntario.html">voluntário</a></li>
-                           <li><a class="title" id="doe" href="">Doe</a></li>
+                           <li><a class="title" id="doe" href="./doe.html">Doe</a></li>
                         </ul>
                     </div>
                     <span class=" toggle icon-close-877"></span>
@@ -38,7 +42,6 @@
             <!--fim do Menu-->
 
              <!--Home-->
-             <!-- <div class="fundo"><img src="./Img/fundopisci.jpg" alt=""></div> -->
             <main>
                 <section class="section" id="home">
                     <div class="container grid">
@@ -103,6 +106,7 @@
                 </section>
                  <!--FIM DO SERVICES-->
                  <div class="divider-1"></div>
+
                  <!--TESTIMONIALS-->
                 <section class="section" id="testimonials">
                     <div class="container">
@@ -182,6 +186,22 @@
                     </div>
                 </section>
                  <!--FIM DO TESTIMONIALS-->
+                 <div class="divider-1"></div>
+
+                 <section class="section" id="parceiros">
+                    <div class="container grid">
+                        <h4 class="title">Nossos <span class="span-home">parceiros </span></h4>
+                        <div class="parceiros">
+                            <br>
+                            <ul>
+                                <li><a href="https://ios.org.br/" target="_black"><img src="./Img/nav-foot/ios 1.svg" alt="Instituto da oportunidade social"></a></li>
+                                <li><a href="https://www.totvs.com/?utm_campaign=totvs_conversao_sql&utm_source=google-search&utm_medium=cpc&utm_term[0]=s-institucional_Totvs&utm_term[1]=totvs&utm_content=responsivo" target="_black"><img src="./Img/nav-foot/totvs_logo 1.svg" alt="TOTVS"></a></li>
+                                <li><a href="https://brasscom.org.br/" target="_black"><img src="./Img/nav-foot/brasscom 1.svg" alt="Brasscom"></a></li>
+                            </ul>
+                        </div>
+                    </div>  
+                 </section>
+
                  <div class="divider-2"></div>
                 <!-- CONTACT -->
                 <section class="section" id="contact">
@@ -192,48 +212,61 @@
                             Entre em contato com o Squirtle, queremos tirar suas dúvidas.
                             </p>
                             <a href="https://api.whatsapp.com/send?phone=+5598585878&text=Oi! Gostaria de ser um voluntário" class="button"
-                            target="_blank"><i class="icon-turtle"></i></a>
-                        </div>
-
-                        <div class="links">
-                            <h4>Parceiros:</h4>
-                            <br>
-                            <ul class="grid">
-                                <li>IOS - Instituição da Oportunida Social</l>
-                                <li>TOTVS</li>
-                                <li>Brasscom</li>
-                            </ul>
+                            target="_blank">Saiba mais</a>
                         </div>
                     </div>
                 </section>
+
+                
+                   <!-- FIM CONTACT -->
                 <div class="divider-1"></div>   
             </main>
 
-                <footer class="section">
-                    <div class="container grid">
-                        <div class="brand">
-                                <a class="logo logo-alt" href="#"><img src="./Img/nav-foot/logo.svg" alt=""></a>
-                            <p>&copy;2021 Squirtle</p> 
-                            <p>Todos os direitos reservados.</p>
+              
+                 <!--footer-->
+                 <footer class="footer" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-3 item">
+                                <h3>Menu</h3>
+                                <ul>
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./sobre.html">Sobre</a></li>
+                                    <li><a href="./voluntario.html">Voluntário</a></li>   
+                                    <li><a href="./doe.html">Doe</a></li> 
+                                </ul>
+                            </div> 
+                            <div class="col-12 col-md-3 item">
+                                <h3>Apoiadores</h3>
+                                <ul>
+                                    <li><a href="https://www.seacology.org/2020/04/seacology-supports-sea-turtles-race-for-survival/?gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WhPGLMc1cbReooMR4BpXGCw7IZjdW563C6qgusbG3vrZMK3CpRpOgYaAmjJEALw_wcB" target="_black">Seacology</a></li>
+                                    <li><a href="https://www.cici.org.au/?gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WiB0JKD8HwAZ0i9YZHH7XyW6P3MVx3PBkK3XYvUqD1f3D6rsGi0eawaAqkfEALw_wcB" target="_BLACK">CICI</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 item text">
+                                <h3>Squirtle</h3>
+                                <p>Em 09 de agosto de 2010, surgia o Squirtle, que em 5 anos se tornou a
+                                maior OSCIP( Organização da Sociedade Civil de Interesse Público) de proteção dos mares Brasil.</p>
+                            </div>
+                            <div class="col item social">
+                                <a href="#"><i class="icon-Facebook"></i></a>
+                                <a href="https://www.instagram.com/projetosquirtle/" target="_black"><i class="icon-Instagram"></i></a>
+                                <a href="mailto:projetosquirtle@gmail.com"><i class="icon-mail2"></i></a>
+                            </div>
                         </div>
-                        <div class="social">
-                            <a href="https://instagram.com" target="_blank">
-                                <i class="icon-sea-horse-svgrepo-com"></i>
-                            </a>
-                            <a href="">
-                                <i class="icon-reshot-icon-fish-B52GPLE9RV1"></i>
-                            </a>
-                            <a href="">
-                                <i class="icon-coral_sea_fish_ocean_plant_icon"></i>
-                            </a>
-                        </div>
-
+                        <p class="copyright">© 2010 Squirtle </p>
                     </div>
-                </footer>
+                 </footer>
+                
 
-                <a href="#home" class="back-to-top"><i class="icon-reshot-icon-oceans-E7Q6JK5Z241"></i></a>
+                <a href="#home" class="back-to-top"><i class="icon-crculo"></i></a>
               
            <!--Script-->
+            <!--BOOTSTRAP-->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
             <!--SWIPE-->
             <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -242,7 +275,7 @@
 
             <!--JavaScrip-->
             <script src="./JS/javascrip.js"></script>
-            
+
         </body>
     </html>
 

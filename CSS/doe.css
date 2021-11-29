@@ -1,0 +1,74 @@
+
+#adote{
+    overflow: hidden;
+    background-image: url(../Img/pexels-photo-5967671.jpeg);
+    background-repeat: no-repeat;
+      
+}
+
+
+/*VIDAS*/
+#vidas .container{
+    margin: 0 auto;  
+    display: flex;
+}
+
+#vidas .image{
+    position: relative;
+}
+
+#vidas .image::before{
+    content: '';
+    height: 100%;
+    width: 80%;
+    /* background: var(--base-color-second); */
+    border-left: 5rem solid  var(--base-color-second);
+    position: absolute;
+    top: -3.3%;
+    left: -22%;
+    z-index: 1; /* ´Fica atrás da imagem */
+}
+
+#vidas .image img,
+#vidas .image::before{
+    border-radius: 0.25rem;
+}
+
+#vidas .image img{
+    position: relative;
+   
+}
+
+#vidas .text{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align:end;
+}
+
+#vidas .text p{
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+/*contas*/
+
+#contas.grid{
+    gap: 2rem;
+    
+}
+
+#contas .card{
+    padding: 5rem 2rem;
+    box-shadow: 0px 0px 15px  rgba(0,0,0,0.08);
+    border-bottom: 0.25rem solid var(--base-color);
+    border-top: 0.25rem solid var(--base-color);
+    border-radius: .25rem .25rem 0 0;
+    text-align: center;
+}
+
+/*Tartarugas*/
+#tartarugas{
+    overflow: hidden;
+    background-image: url(../Img/pexels-photo-5967671.jpeg);
+    background-repeat: no-repeat;  
+}

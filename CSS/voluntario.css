@@ -1,17 +1,14 @@
-a:hover{
-    text-decoration: none;
-}
 
 #voluntario{
     overflow: hidden;
-    background-image: url(../Img/pexels-photo-7714552.jpeg);    
+    background-image: url(../Img/pexels-photo-10350645.jpeg);    
     background-size: 100vw;
     background-repeat: no-repeat;
 }
 #voluntario .text{
     margin-right: 1.5rem;
     text-align: start;
-    background: rgba(247, 247, 247, 0.733);
+    background: rgba(247, 247, 247, 0.596);
     padding: 2rem 6rem;
     width: 100%;
 }
@@ -45,9 +42,12 @@ a:hover{
     line-height: 1.5;
 }
 
-#requisitos .text .list-volu > li{
+#requisitos .text .list-volu > li,
+#lista-incluso ul li{
     list-style: circle;
+    line-height: 2;
 }
+
 
 
 /* ====== Inclusos ================================ */
@@ -63,11 +63,6 @@ a:hover{
 }
 
 
-#lista-incluso ul li{
-    list-style: circle;
-}
-
-
 /*===== FOTOS DOS VOLUNTARIOS ====== */
 #caroseul{
     margin: 0 auto;
@@ -77,65 +72,17 @@ a:hover{
     width: 70%;
 }
 
-/*====  CONTACT ============================ */
-#contact .grid {
+/*====  Inscrição============================ */
+#inscricao{
+    overflow: hidden;
+    background-image: url(../Img/pexels-photo-1817048.jpeg);
+    background-repeat: no-repeat;
+}
+
+
+#inscricao .grid {
     gap: 4rem;
   }
-  
-  #contact .text p {
-    margin-bottom: 2rem;
-  }
-  
-  #contact .button i,
-  #contact ul li i {
-    font-size: 1.5rem;
-    margin-right: 0.625rem;
-  }
-  
-  #contact ul.grid {
-    gap: 2rem;
-  }
-  
-  #contact ul li {
-    display: flex;
-    align-items: center;
-  }
-  
-  #contact ul li i {
-    color: var(--base-color);
-  }
-  
-
-  
-
-  /*back to top */
-.icon-reshot-icon-oceans-E7Q6JK5Z241{
-    font-size: 2rem;
-}
-
-.back-to-top{
-    background:rgba(25, 133, 133, 0.678);
-    color: var(--text-color-light);
-
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
-
-    padding: .5rem;
-    clip-path: circle();
-    line-height: 0;
-
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s;
-    transform:translateY(100%);
-  }
-
-.back-to-top.show{
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0);
-}
 
 /* ======= RESPONSIVO - MEDIA QUERIES ================================= */
 @media (min-width: 1200px){ 
@@ -145,18 +92,14 @@ a:hover{
         margin: 0 auto;
     }
     
-   
     #voluntario .text{
-       
         text-align: left;
     }
 
 
 }
 
-/* Large devices: +1023 >*/
-/* Large devices: +992 >*/
-@media (min-width: 992px){
+@media (min-width: 999px){
     :root{
         --title-font-size: 2.25rem;
         --subtitle-font-size: 1.125rem;
@@ -189,51 +132,29 @@ a:hover{
 
    
 }
-/* Medium devices: +767 >*/
-@media(max-width: 950px){
-    #requisitos{
-        background-color: rgb(112, 95, 160);
-        grid-auto-flow: column;
-        margin: 0 5rem;
-    }
-    
-    #requisitos .image img{
-        width: 55%;
-        margin-left: 15rem;
-    }
-    
-    #requisitos .image::before{
-        height: 100%;
-        width: 100%;
-        top: -11.3%;
-        left: -25%;
-    }
-    
-    #voluntario .image{
-        width: 65%;
-    }
-    
-    #voluntario .image::before{
-        height: 100%;
-        width: 100%;
-        top: -1.1%;
-        left: 19.7%;   
+
+@media(max-width: 999px){
+    main .title{
+        text-align: center;
+        background-color: blueviolet;
     }
 
-    .button {
-        height: 4.125rem;
+    #voluntario .container{
+        margin: 0 auto;
     }
 
-    .cards {
-        margin: 0 5rem;
+    #requisitos .container{
+        margin: 0 auto;
     }
-    #testimonials h2{
-        margin: 0 4rem;
+    #lista-incluso .container{
+        margin: 0 2rem;
+        padding: 0 2rem;   
     }
-    
-    .testimonials{
-        margin: 0 4rem;
+    #caroseul .container{
+        margin: 0 auto;
     }
-    
-    
+
+    #inscricao .container{
+        margin: 0 auto;
+    }   
 }

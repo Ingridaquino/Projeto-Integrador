@@ -12,6 +12,9 @@ ul{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
 
 img{
     width: 100%;
@@ -151,18 +154,6 @@ body{
 .logo {
     width: 25%;
 }
-/* .logo{
-   font: 700 1.32rem 'Poppins', sans-serif;
-   color: var(--title-color);
-
-}
-.logo span{
-    color: var(--base-color);
-}
-
-.logo-alt span{
-    color: var(--body-color);
-} */
 
 /* ====== NAVIGATION ================================ */
 
@@ -352,7 +343,7 @@ nav.show span.icon-close-877{
 
 #about .text{
     margin-left:1rem;
-    margin-right: rem;
+    margin-right: 1rem;
     text-align:end;
 }
 
@@ -485,41 +476,6 @@ nav.show span.icon-close-877{
     color: var(--base-color);
   }
   
-
-  /* ====== Footer================================ */
-  footer{
-      background:var(--base-color);
-  }
-
-  footer.section{
-      padding: 3rem 0;
-  }
-
-  footer .brand .logo{
-      display: inline-block;
-      margin-bottom: 1rem;
-  }
-
-  footer .brand p{
-      color: var(--text-color-light);
-      /* margin-bottom: 0.75rem; */
-  }
-
-  footer i{
-      font-size: 2.5rem;
-      color: var(--text-color-light);
-  }
-
-  footer .social a {
-      display: inline-block; /*Pois o a é inline, ele não recebe o efeito*/
-      margin-right: 2rem;
-      transition: .5s; /*Para dar efeito no icon da rede social*/
-  }
-
-  footer .social a:hover{
-      transform: translateY(-8px);
-  }
-
   /*back to top */
 .icon-reshot-icon-oceans-E7Q6JK5Z241{
     font-size: 2rem;
@@ -635,6 +591,7 @@ nav.show span.icon-close-877{
   .card {
     padding-left: 3rem;
     padding-right: 3rem;
+    margin-bottom: 2rem;
   }
 
   /* testimonials */
@@ -647,7 +604,25 @@ nav.show span.icon-close-877{
     word-wrap: break-word;
 }
 
-  /* contact */
+
+/* Parceiros*/
+#parceiros{
+    background:var(--base-color);
+}
+
+#parceiros h4{
+    text-align: center;
+}
+
+#parceiros .parceiros ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* contact */
+  #contact{
+      background-image: url(../Img/filhote-home.svg);
+  }
   #contact .container {
     grid-auto-flow: column;
     align-items: center;
@@ -657,12 +632,14 @@ nav.show span.icon-close-877{
     max-width: 25rem;
   }
 
-  /* footer */
+
+  /* footer
   footer.section {
     padding: 3.75rem 0;
   }
 
   footer .container {
+    margin: 0 1rem ;
     grid-auto-flow: column;
     align-items: center;
     justify-content: space-between;
@@ -671,8 +648,14 @@ nav.show span.icon-close-877{
   footer .logo {
     width: 50%;
   }
-}
-/* Large devices: +1023 >*/
+
+  footer .copy{
+      text-align: center;
+  }
+} */
+
+
+
 /* Large devices: +992 >*/
 @media (min-width: 992px){
     :root{
@@ -681,6 +664,7 @@ nav.show span.icon-close-877{
     }
    
 }
+
 /* Medium devices: +767 >*/
 @media(max-width: 1220px){
     #about{
@@ -726,6 +710,25 @@ nav.show span.icon-close-877{
     .testimonials{
         margin: 0 4rem;
     }
+    /* Parceiros*/
+    #parceiros{
+        background:var(--base-color);
+    }
+
+    #parceiros h4{
+        text-align: center;
+    }
+
+    #parceiros .parceiros ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    /* contact */
+    #contact{
+        background-image: url(../Img/filhote-home.svg);
+    }
+
 }
 
 
