@@ -1,16 +1,19 @@
 
 #adote{
     overflow: hidden;
-    background-image: url(../Img/pexels-photo-5967671.jpeg);
+    background-image: url(../Img/pexels-photo-5968120.jpeg);
     background-repeat: no-repeat;
       
 }
 
 
 /*VIDAS*/
+/* #vidas{
+    overflow: hidden;
+} */
+
 #vidas .container{
     margin: 0 auto;  
-    display: flex;
 }
 
 #vidas .image{
@@ -26,7 +29,7 @@
     position: absolute;
     top: -3.3%;
     left: -22%;
-    z-index: 1; /* ´Fica atrás da imagem */
+    z-index: 0; /* ´Fica atrás da imagem */
 }
 
 #vidas .image img,
@@ -50,7 +53,12 @@
     line-height: 1.5;
 }
 
+
+
 /*contas*/
+#contas .container{
+    margin:  0 auto;
+}
 
 #contas.grid{
     gap: 2rem;
@@ -66,9 +74,137 @@
     text-align: center;
 }
 
-/*Tartarugas*/
-#tartarugas{
-    overflow: hidden;
-    background-image: url(../Img/pexels-photo-5967671.jpeg);
-    background-repeat: no-repeat;  
+#contas .container .title{
+    text-align: center;
 }
+
+/* ======= RESPONSIVO - MEDIA QUERIES ================================= */
+@media (min-width: 1250px){ 
+    #adote .container{
+        margin: 0 auto;
+    }
+    
+    #vidas .container{
+        margin: 0 auto;
+        display: flex;
+    }
+
+    #vidas .image img{
+       margin: 0 auto;       
+       width: 100%;
+       margin-bottom: 4rem;
+       right: -9%;
+       top: 15%;
+    }
+
+    #vidas .image::before{
+        height: 90%;
+        left: -2%;
+        top: 6%;
+        z-index: 0;
+    }
+    #vidas .text{  
+        max-width: 90rem;
+        text-align: right;
+        margin: 2rem 2rem;
+    }
+    
+   #contas .container{
+       margin: 0 auto;
+   }
+
+   #contas .container .title{
+    text-align: center;
+  }
+
+}
+
+
+@media(max-width: 1100px){ /*ok*/
+    #adote .container{
+        margin: 0 auto;
+    }
+    
+    #vidas .container {
+        margin: 0 auto;
+    }
+
+    #vidas .container  .text{
+        margin-bottom: 2rem;
+    }
+
+
+    #vidas .image img{
+        margin: 0 auto;       
+        width: 85%;
+        margin-bottom: 4rem;
+        right: -10%;
+        top: 9%;
+     }
+ 
+     #vidas .image::before{
+         height: 100%;
+         left: 2%;
+         bottom: -1%;
+         z-index: 0;
+     }
+
+     #contas .container{
+         margin: 0 auto;
+     }
+
+     #contas .container .title{
+         text-align: center;
+     }
+
+     #footer{
+      margin: 0 auto;
+    }
+
+    
+}
+
+
+
+/* @media(max-width: 1050px){
+    #adote .container{
+        margin: 0 auto;
+    }
+    #vidas .container{
+        margin: 0 auto;
+    }
+    #vidas .text{  
+        background-color: darkgoldenrod;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+    #vidas .image img{
+        margin: 0 auto;       
+        width: 65%;
+        margin-bottom: 4rem;
+        right: -22%;
+        top: 2%;
+     }
+ 
+     #vidas .image::before{
+         height: 100%;
+         left: 19%;
+         bottom: -1%;
+         z-index: 0;
+     }
+    #contas .container{
+        margin: 0 auto;
+    }
+
+    #contas .container .title{
+        text-align: center;
+    }
+
+} */
+
+
+
+@media(max-width: 999px){
+    body{
+        font-size: 1.2rem;
+    }}

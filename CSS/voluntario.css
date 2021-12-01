@@ -2,15 +2,14 @@
 #voluntario{
     overflow: hidden;
     background-image: url(../Img/pexels-photo-10350645.jpeg);    
-    background-size: 100vw;
     background-repeat: no-repeat;
 }
+
 #voluntario .text{
     margin-right: 1.5rem;
     text-align: start;
-    background: rgba(247, 247, 247, 0.596);
+    background: rgba(247, 247, 247, 0.61);
     padding: 2rem 6rem;
-    width: 100%;
 }
 
 #voluntario .text h1{
@@ -133,21 +132,24 @@
    
 }
 
-@media(max-width: 999px){
+@media(max-width: 999px){ /*OK*/
+    body{
+        font-size: 1.2rem;
+    }
     main .title{
         text-align: center;
-        background-color: blueviolet;
     }
 
     #voluntario .container{
         margin: 0 auto;
+        width: 100%;
     }
 
     #requisitos .container{
         margin: 0 auto;
     }
     #lista-incluso .container{
-        margin: 0 2rem;
+        margin: 0 2rem 2rem 2rem;
         padding: 0 2rem;   
     }
     #caroseul .container{
