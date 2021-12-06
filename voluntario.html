@@ -27,7 +27,7 @@
             <!--Menu-->
             <header id="header" class="scroll">
                 <nav class="container">
-                    <img class="logo" src="./Img/nav-foot/logo.svg" alt="">
+                    <img class="logo" src="./Img/nav-foot/logo.svg" alt="Logo">
                     <div class="menu">
                         <ul class="grid">
                            <li><a class="title" href="./index.html">Home</a></li>
@@ -92,7 +92,7 @@
                     <div class="divider-2"></div> <!--Para fazer a linha em gradiente */--> 
 
                     <section class="section" id="lista-incluso" >
-                        <div class="container grid " >
+                        <div class="container grid">
                             <div class="text">
                                 <header>
                                     <h2 class="title">O que <span>está incluído</span> </h2>
@@ -135,26 +135,28 @@
                     <!-- Carrosseul-->
                     <section class="section" id="caroseul">
                         <div class="container grid">
-                            
                             <header>
                                 <h2 class="title">Fotos dos <span>Voluntários</span></h2>
                             </header>
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner foto">
                                   <div class="carousel-item active">
-                                    <img class="d-block w-80" src="./Img/carrosel 1.svg" alt="Primeiro Slide">
+                                    <img class="d-block w-80" src="./Img/carrosel 1.svg" alt="Uma pessoa tirando foto de uma tartaruga">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-80" src="./Img/carrosel 2.svg" alt="Segundo Slide">
+                                    <img class="d-block w-80" src="./Img/carrosel 2.svg" alt="Duas pessoas nadando com uma tartaruga">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-80" src="./Img/carrosel 3.svg" alt="Terceiro Slide">
+                                    <img class="d-block w-80" src="./Img/carrosel 3.svg" alt="Três amigos no fundo do mar">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-80" src="./Img/carrosel 4.svg" alt="Quarto Slide">
+                                    <img class="d-block w-80" src="./Img/carrosel 4.svg" alt="Uma pessoa tirando foto de uma tartaruga">
                                   </div>
                                   <div class="carousel-item">
-                                    <img class="d-block w-80" src="./Img/carrosel 5.svg" alt="Quinto Slide">
+                                    <img class="d-block w-80" src="./Img/carrosel 5.svg" alt="Quatro amigos no fundo do mar">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-80" src="./Img/carrosel 6.svg" alt="Uma pessoa nadando com uma tartaruga">
                                   </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -179,54 +181,55 @@
                             <h2 class="title">Seja <span class="span-home">Voluntários</span> </h2>
                             <p>Participe de patrulhas na praia, observe tartarugas fazendo ninhos e chocando filhotes</p>
                             <!-- Botão para acionar modal -->
-                            <button type="button" class="btn button" data-toggle="modal" data-target="#ModalLongoExemplo">
-                            Inscreva-se
+                            <button type="button" class="btn button" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                                Inscreva-se
                             </button>
 
-                        <!-- Modal -->
-                            <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="TituloModalLongoExemplo">Quer ser nosso voluntário? Complete o formulário abaixo e aguarde o nosso contato!</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
+                       <!-- Modal -->
+                        <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="TituloModalCentralizado">Título do modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
 
-                                            <form  action="#" method="POST">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <label for="nome">Nome</label>
-                                                    <input type="text" class="form-control" id="nome" placeholder="Nome">
-                                                </div>
-                                                <div class="col">
-                                                    <label for="sobrenome">Sobrenome</label>
-                                                    <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="email">Email</label>
-                                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
-                                                <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="validationTextarea">Por que quer ser voluntário?</label>
-                                                <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-                                            </div>
-                                                <button type="submit" class="btn button" id="botaoEnviar">Enviar</button>
-                                            </form>
-                                        </div>
-                                        <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <form  action="#" method="POST">
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="nome">Nome</label>
+                                        <input type="text" class="form-control" id="nome" placeholder="Nome">
+                                    </div>
+                                    <div class="col">
+                                        <label for="sobrenome">Sobrenome</label>
+                                        <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
+                                    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="validationTextarea">Por que quer ser voluntário?</label>
+                                    <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                                </div>
+                                    <button type="submit" class="btn button" id="botaoEnviar">Enviar</button>
+                                </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                      <button type="button" class="btn btn-primary">Salvar mudanças</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-            </main>
+                    </section>
+                 </main>
+
 
                  <!--footer-->
                  <footer class="footer" >
@@ -254,16 +257,15 @@
                                 maior OSCIP( Organização da Sociedade Civil de Interesse Público) de proteção dos mares Brasil.</p>
                             </div>
                             <div class="col item social">
-                                <a href="#"><i class="icon-Facebook"></i></a>
-                                <a href="https://www.instagram.com/projetosquirtle/" target="_black"><i class="icon-Instagram"></i></a>
-                                <a href="mailto:projetosquirtle@gmail.com"><i class="icon-mail2"></i></a>
+                                <a href="#"><img src="./Img/nav-foot/facebook-box-line.svg" alt=""></a>
+                                <a href="https://www.instagram.com/projetosquirtle/" target="_black"><img src="./Img/nav-foot/instagram-line.svg" alt=""></a>
+                                <a href="mailto:projetosquirtle@gmail.com"><img src="./Img/nav-foot/mail-line.svg" alt=""></a>
                             </div>
                         </div>
                         <p class="copyright">© 2010 Squirtle </p>
                     </div>
                  </footer>
                 
-
                 <a href="#voluntario" class="back-to-top"><i class="icon-crculo"></i></a>
               
            <!--Script-->

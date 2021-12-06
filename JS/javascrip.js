@@ -55,22 +55,42 @@ const scrollReveal = ScrollReveal({
   reset: true
 })
 
+//HOME EFEITO DE APARECER
 scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
-  #testimonials header, #testimonials .testimonials
+  #testimonials header, #testimonials .testimonials,
+  #parceiros .title, #parceiros .parceiros,
   #contact .text, #contact .links,
-  footer .brand, footer .social
+  footer .item, footer .social
   `,
   { interval: 100 }
 )
 
+//SOBRE
+scrollReveal.reveal(
+  `#sobre .image, #sobre .text,
+  #services-sobre .card
+  `,
+  { interval: 100 }
+)
+
+// //VOLUNTÁRIO
 scrollReveal.reveal(
   `#voluntario .text,
   #requisitos .text,
   #lista.incluso .text, #lista-incluso .text,
-  #caroseul .container
+  #caroseul .container,
+  #inscricao .title
+  `,
+  { interval: 100 }
+)
+
+//DOE
+scrollReveal.reveal(
+  `#adote .text,
+  #vidas .text, #vidas .image
   `,
   { interval: 100 }
 )

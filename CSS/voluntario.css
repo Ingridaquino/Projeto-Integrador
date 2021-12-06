@@ -1,7 +1,7 @@
 
 #voluntario{
     overflow: hidden;
-    background-image: url(../Img/pexels-photo-10350645.jpeg);    
+    background-image: url(../Img/voluntario.svg);    
     background-repeat: no-repeat;
 }
 
@@ -74,7 +74,7 @@
 /*====  Inscrição============================ */
 #inscricao{
     overflow: hidden;
-    background-image: url(../Img/pexels-photo-1817048.jpeg);
+    background-image: url(../Img/voluntario2.svg);
     background-repeat: no-repeat;
 }
 

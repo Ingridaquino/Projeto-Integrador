@@ -1,5 +1,10 @@
 
 /* ====== SOBRE================================ */
+#historia{
+    text-align: center;
+}
+
+
 #sobre{
     overflow: hidden;
 }
@@ -59,13 +64,6 @@ span{
 /* ====== serviços ================================ */
 #services-sobre .cards .card + .card{
     margin-top:5rem ;
-}
-
-/**Banner*/
-#banner{
-    overflow: hidden;
-    background-image: url(../Img/pexels-photo-10350645.jpeg);
-    background-repeat: no-repeat;
 }
 
 /* ======= RESPONSIVO - MEDIA QUERIES ================================= */
