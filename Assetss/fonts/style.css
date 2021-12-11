@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?uufb8a');
-  src:  url('fonts/icomoon.eot?uufb8a#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?uufb8a') format('truetype'),
-    url('fonts/icomoon.woff?uufb8a') format('woff'),
-    url('fonts/icomoon.svg?uufb8a#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?jar9xg');
+  src:  url('fonts/icomoon.eot?jar9xg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jar9xg') format('truetype'),
+    url('fonts/icomoon.woff?jar9xg') format('woff'),
+    url('fonts/icomoon.svg?jar9xg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,11 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-open-menu-6208:before {
-  content: "\e920";
+.icon-mail-line:before {
+  content: "\e901";
 }
-.icon-close-877:before {
-  content: "\e921";
+.icon-facebook-box-line:before {
+  content: "\e902";
+}
+.icon-instagram-line:before {
+  content: "\e903";
 }
 .icon-animal_domestic_pet_turtle_wild_icon:before {
   content: "\e900";
@@ -45,19 +48,4 @@
 }
 .icon-crculo:before {
   content: "\ea41";
-}
-.icon-mail2:before {
-  content: "\ea84";
-}
-.icon-Facebook:before {
-  content: "\ea90";
-}
-.icon-Instagram:before {
-  content: "\ea92";
-}
-.icon-Whatsapp:before {
-  content: "\ea93";
-}
-.icon-Youtube:before {
-  content: "\ea9d";
 }

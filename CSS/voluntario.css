@@ -3,13 +3,14 @@
     overflow: hidden;
     background-image: url(../Img/voluntario.svg);    
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #voluntario .text{
-    margin-right: 1.5rem;
     text-align: start;
     background: rgba(247, 247, 247, 0.61);
-    padding: 2rem 6rem;
+    padding: 2rem 3rem;
+    border-radius: .35rem .35rem;
 }
 
 #voluntario .text h1{
@@ -51,11 +52,10 @@
 
 /* ====== Inclusos ================================ */
 #lista-incluso{
-     display: flex;
-     justify-content: space-between; 
      width: 100%;  
      margin: 0 auto;
 }
+
 
 #lista-incluso div{
     padding: 0 4rem;
@@ -76,6 +76,7 @@
     overflow: hidden;
     background-image: url(../Img/voluntario2.svg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -94,8 +95,6 @@
     #voluntario .text{
         text-align: left;
     }
-
-
 }
 
 @media (min-width: 999px){
@@ -148,15 +147,20 @@
     #requisitos .container{
         margin: 0 auto;
     }
+
     #lista-incluso .container{
         margin: 0 2rem 2rem 2rem;
         padding: 0 2rem;   
     }
+
     #caroseul .container{
         margin: 0 auto;
     }
 
     #inscricao .container{
         margin: 0 auto;
+
     }   
 }
+
+/*Caroseul*/

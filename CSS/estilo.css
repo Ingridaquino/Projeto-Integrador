@@ -71,7 +71,7 @@ body{
     align-items: center;
     background: var(--base-color);
     color: var(--text-color-light);
-    height: 2.5rem;
+    height: 3.5rem;
     padding: 0 1rem;
     border-radius: 0.55rem 0.85rem;
     transition: background 0.4s;
@@ -79,7 +79,8 @@ body{
 }
 
 .button:hover{
-    opacity: .7;
+    opacity: .6;
+    color:rgb(9, 94, 75) ;
 }
 
 .divider-1 {
@@ -102,7 +103,7 @@ body{
 
 /* ====== LAYOUT  ================================ */
 .container{
-     margin-left: 1rem; /* 24px */
+    margin-left: 1rem; /* 24px */
     margin-right: 1rem; 
 }
 
@@ -259,6 +260,7 @@ nav.show span.icon-close-877{
     background-image: url(../Img/home.svg);   
     background-repeat: no-repeat;
     margin: 0 auto;  
+    background-size: cover;
 }
 
 #home .container{
@@ -474,7 +476,11 @@ nav.show span.icon-close-877{
 /*====  CONTACT ============================ */
 #contact{
     background-image: url(../Img/filhote-home.svg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 #contact .container {
   grid-auto-flow: column;
   align-items: center;
@@ -532,7 +538,12 @@ nav.show span.icon-close-877{
     opacity: 0;
     transition: 0.3s;
     transform:translateY(100%);
-  }
+}
+
+.back-to-top:hover{
+    color: rgb(9, 94, 75);
+}
+
 
 .back-to-top.show{
     visibility: visible;
@@ -732,7 +743,7 @@ nav.show span.icon-close-877{
 
     #about .image::before{
         height: 100%;
-        width: 100%;
+        width: 80%;
         left: 22%;
         top: 5%;
         z-index: 0;
@@ -763,6 +774,11 @@ nav.show span.icon-close-877{
 
     #parceiros .container{
         margin: 0 auto;
+    }
+
+    #contact{
+        padding: 5rem 2rem;
+        background-size: cover; /*especifica que a imagem de fundo deve ser dimensionado de modo que seja tão pequena quanto possível*/
     }
 
     #contact .container{

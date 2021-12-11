@@ -1,9 +1,8 @@
 /* footer*/
 .footer{
   background:var(--base-color);
-}
-.footer{
-  padding:2rem 0;
+  margin: 0 auto;
+  padding: 5rem 0;
   color: var(--text-color-light);
 }
 
@@ -68,8 +67,12 @@
   color: var(--text-color-light);
 }
 
+.footer a:hover, .footer.social a:hover{
+  color:rgb(9, 94, 75);
+}
+
 .footer .item.social > a {
-  font-size:5rem;
+  font-size:3.5rem;
   width: 5%;
   display:inline-block;
   text-align:center;
