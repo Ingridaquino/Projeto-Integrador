@@ -25,6 +25,39 @@
   font-size: 1.5rem;
 }
 
+
+.footer a{
+  text-decoration: none;
+  color: var(--text-color-light);
+}
+
+.footer a:hover, .footer.social a:hover{
+  color:rgb(9, 94, 75);
+}
+
+.footer .item.social > a {
+  font-size:3.5rem;
+  width: 5%;
+  display:inline-block;
+  text-align:center;
+  border-radius:25%;
+  margin:0 .9rem;
+}
+
+.footer .copyright {
+  text-align:center;
+  padding-top:2.4rem;
+  font-size:2rem;
+  margin-bottom:0;
+  color: rgb(9, 94, 75);;
+}
+
+
+
+
+
+/*RESPONSIVO*/
+
 @media (max-width:767px) {
   .footer .item:not(.social) {
     text-align:center;
@@ -57,36 +90,15 @@
 }
 
 @media (max-width:991px) {
+  .footer .container{
+    margin: 0 auto;
+  }
   .footer .item.social {
     text-align:center;
-    margin-top:2.0rem;
+    margin-top:2.0rem; 
   }
 }
-.footer a{
-  text-decoration: none;
-  color: var(--text-color-light);
-}
 
-.footer a:hover, .footer.social a:hover{
-  color:rgb(9, 94, 75);
-}
-
-.footer .item.social > a {
-  font-size:3.5rem;
-  width: 5%;
-  display:inline-block;
-  text-align:center;
-  border-radius:25%;
-  margin:0 .9rem;
-}
-
-.footer .copyright {
-  text-align:center;
-  padding-top:2.4rem;
-  font-size:2rem;
-  margin-bottom:0;
-  color: rgb(9, 94, 75);;
-}
 
 
 

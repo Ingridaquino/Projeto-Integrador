@@ -27,7 +27,7 @@
     position: absolute;
     bottom: 37.8%;
     left: -33%;
-    z-index: -1; /* ´Fica atrás da imagem */
+    z-index: 0; /* ´Fica atrás da imagem */
 }
 
 #sobre .image img,
@@ -44,7 +44,7 @@
 
 
 #sobre .text{
-    text-align: center;   
+    text-align: start;   
     padding: 0 2rem;
 }
 

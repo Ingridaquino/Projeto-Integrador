@@ -1,9 +1,10 @@
 
-/* ====== SOBRE================================ */
+/* ====== turtle ================================ */
 #turtle{
+    background-color: ;
     text-align: center;
     overflow: hidden;
-    background-image: url(../Img/pexels-photo-7082800.jpeg);
+    background-image: url(../Img/pexels-photo-7082800.svg);
     background-size: cover;
 }
 
@@ -15,216 +16,166 @@
     margin: 0 auto ; 
 }
 
-#especie .container{
-    margin: 0 auto ;   
-}
-#turtle-especie .text{
-    text-align: center;
-}
 
+/**/
 
-#turtle-especie .container{
-    margin: 0 auto;
+.direita .container{
+    margin: 0 ;
+    position: relative;
 }
 
-#turtle-especie .container .text{
-    margin: 0 auto;
-    padding: 6rem;
-}
-
-#turtle-especie .container .text > p{
-    margin: 5rem 0;
-}
-
-#turtle-especie .container .text .image{
-    margin: 0 auto;
-}
-
-#turtle-especie .container .text .image > img{
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: .25rem .25rem;
-}
-
-#sobre .image::before{
+.direita .container::before{
     content: '';
-    height: 50%;
-    width: 100%;
+    height: 220%;
     /* background: var(--base-color-second); */
-    border-right: 5rem solid  var(--base-color-second);
+    border-right: 7rem solid  var(--base-color-second);
     position: absolute;
-    bottom: 37.8%;
-    left: -33%;
+    top: -60%;
+    right: -15%;
     z-index: -1; /* ´Fica atrás da imagem */
 }
 
-#sobre .image img,
-#sobre .image::before{
-    border-radius: 0.25rem;
-}
 
-#sobre .image img{
+.direita .image img{
     position: relative;
     top: 19%;
     right: -2.93rem;
-    width: 80%;
 }
 
 
-#sobre .text{
+.mainTurtle .container .direita .text,
+.mainTurtle .container .esquerda .text{
+    margin: 0 auto;  
+    text-align:end;
+}
+
+ .text .title{
     text-align: center;   
-    padding: 0 2rem;
+    margin: 2rem 0;
 }
 
-#sobre .text h1{
-    margin-bottom: 1rem;
-}
-
-#sobre .text p{
+.container .text p{
+    font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
-span{
-    color: var(--base-color);
+
+
+/*ESQUERDA*/
+
+.esquerda .container{
+    margin: 0 auto;  
+}
+
+.esquerda .image{
+    position: relative;
+}
+
+/* .esquerda .container::before{
+    content: '';
+    height: 220%;
+    /* background: var(--base-color-second); */
+    border-right: 2rem solid  var(--base-color-second);
+    position: absolute;
+    top: -20%;
+    right: -20%;
+    z-index: -1; /* ´Fica atrás da imagem */
+} */
+
+
+.esquerda .image img{
+    position: relative;
+   
+}
+
+.esquerda .text{
+   margin: 0 auto;
+    text-align:end;
+}
+
+.esquerda .text p{
+    margin-bottom: 2rem;
+    line-height: 1.5;
 }
 
 
-/* ====== serviços ================================ */
-#services-sobre .cards .card + .card{
-    margin-top:5rem ;
-}
 
-/* ======= RESPONSIVO - MEDIA QUERIES ================================= */
 /* EXTRA LARGE DEVICES: +1200 > */
 @media (min-width: 1200px){
-    /*sobre*/
-    #sobre .container{
+    .direita .container, .esquerda .container{
         grid-auto-flow: column;
         justify-content: space-between;
         margin: 0 auto;
+        border: .1rem solid var(--base-color); 
     }
     
     
-    #sobre .image{
+    .direita .image{
         order: 1; 
     }
-    #sobre .image::before{
-        bottom: 33.8%;
-        left: 5%;
-    }
+
+
     
-    #sobre .image img,
-    #sobre .image::before{
-        border-radius: 0.25rem;
-    }
-    
-    #sobre .image img{
+    .direita .image img{
         position: relative;
-        top: 19%;
-        right: -2.93rem;
-        width: 80%;
+        top: -15%;
+        right: 2.93rem;
     }
    
-    #sobre .text{  
+    .direita .text{  
         order: 0;
         max-width: 90rem;
         text-align: left;
     }
-
-    #services-sobre{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    main{
-        /*Para desgrudar o conteudo do menu */
-        margin-top: var(--header-height);
- 
-    }
-
-}
-
-
-
-/* Large devices: +1023 >*/
-/* Large devices: +992 >*/
-@media (max-width: 992px){
-    :root{
-        --title-font-size: 2.25rem;
-        --subtitle-font-size: 1.125rem;
-    }
-    #sobre .container{
-        margin: 0 auto; 
-    }  
-     
-    #sobre .text{  
-        order: 0;
-        max-width: 90rem;
-        text-align: left;
-        margin: 0 auto;
-    }
-
     
-    #sobre .image img{
-        width: 55%;
-        margin-bottom: 4rem;
-        left: 22%;
-     }
- 
-     #sobre .image::before{
-         height: 100%;
-         left: -18%;
-         top: 15%;
+    .image img{
+        border-radius: 0.25rem;
     }
 
-    #services-sobre .container{
+    /*ESQUERDA*/
+
+    .esquerda .container{
         margin: 0 auto;
+        display: flex;
     }
 
-}
+    .esquerda .image img{
+        position: relative;
+        top: -15%;
+        left: 2.93rem;
+    }
 
+    .esquerda .text{  
+        order: 0;
+        max-width: 90rem;
+        text-align: right;
+    }
+}
 
 
 @media(max-width: 1199px){
-    #sobre .container{
+    .direita .container{
         margin: 0 auto;
+  
     }
 
-    #sobre .image{
+    .direita .image{
         order: 1;
         margin: 0 auto;
     }
 
-    #sobre .image img{
+    .esquerda .image img{
        width: 60%;
        margin-bottom: 4rem;
        right: -19%;
        top: -3%;
     }
 
-    #sobre .image::before{
-        height: 100%;
-        left: -11%;
-        top: -8%;
-    }
 
-    #sobre .text{  
+    .esquerda .text{  
         order: 0;
         max-width: 90rem;
-        text-align: left;
+        text-align: right;
         margin: 2rem 2rem;
     }
-
-    #services-sobre .container{
-        margin: 0 auto;
-    }
-}
-
-
-@media(max-width: 999px){
-    body{
-        font-size: 1.2rem;
-    }
-       
 }
