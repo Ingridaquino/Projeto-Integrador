@@ -95,6 +95,17 @@ scrollReveal.reveal(
   { interval: 100 }
 )
 
+//Tartarugas
+scrollReveal.reveal(
+  `#turtle .text,
+  #especie .text, 
+  .direita .text, .direita .image,
+  .esquerda .text, .esquerda .image
+
+  `,
+  { interval: 100 }
+)
+
 
 /* Botão voltar para o topo */
 const backToTopButton = document.querySelector('.back-to-top')
