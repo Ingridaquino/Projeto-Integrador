@@ -90,8 +90,8 @@ body{
 }
 
 .button:hover{
-    opacity: .6;
-    color:rgb(9, 94, 75) ;
+    background:rgb(9, 94, 75);
+    color: var(--body-color);
 }
 
 .divider-1 {
