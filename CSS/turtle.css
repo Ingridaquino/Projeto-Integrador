@@ -36,10 +36,10 @@
     content: '';
     height: 200%;
     /* background: var(--base-color-second); */
-    border-right: 7rem solid  var(--base-color-second);
+    border-right: 3rem solid  var(--base-color-second);
     position: absolute;
     top: -50%;
-    right: -15%;
+    right: -10%;
     z-index: -1; /* ´Fica atrás da imagem */
 }
 
@@ -99,10 +99,10 @@
     content: '';
     height: 200%;
     /* background: var(--base-color-second); */
-    border-right: 7rem solid  var(--base-color-second);
+    border-right: 5rem solid  var(--base-color-second);
     position: absolute;
     top: -50%;
-    left: -15%;
+    left: -10%;
     z-index: -1; /* ´Fica atrás da imagem */
 }
 
