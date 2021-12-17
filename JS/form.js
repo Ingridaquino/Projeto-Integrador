@@ -11,9 +11,13 @@ function validarFormulario() {
         var text = document.getElementById("validationTextara")
 
         alert("Prontinho! Você receberá um e-mail com os próximos passos.")
+
+        return;
     } else {
 
         alert("Por favor, preencha os campos!")
+
+        return;
     }
 };
 
