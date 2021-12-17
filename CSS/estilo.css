@@ -49,6 +49,17 @@ img{
 }
 
 /* ====== BASE ================================ */
+/*===COR NO SCROLL ====*/
+::-webkit-scrollbar{
+     background:var(--base-color); 
+     width: .7rem; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(241, 238, 238); 
+    border-radius: .7rem;
+  }
+
 html{
     scroll-behavior: smooth; /* Rolagem de leve na página */
 }
@@ -455,6 +466,14 @@ nav.show span.icon-close-877{
 
 
 /**Parceiros*/
+#parceiros .parceiros ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0  auto;
+    flex-wrap: wrap;
+
+}
 
 #parceiros{
     background:var(--base-color);
@@ -465,12 +484,17 @@ nav.show span.icon-close-877{
     text-align: center;
 }
 
-#parceiros .parceiros ul{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0  auto;
+#parceiros ul li a {
+    display: inline-block;
+    width: 12rem;
 }
+
+#parceiros ul li a img {
+    height: 5rem;
+    margin: 0 auto;
+}
+
+
 
 
 /*====  CONTACT ============================ */
@@ -685,8 +709,6 @@ nav.show span.icon-close-877{
         left: -4%;
         z-index: 0;
     }
-
-
 }
 
 
@@ -721,6 +743,14 @@ nav.show span.icon-close-877{
     #parceiros .container{
         margin: 0 auto;
     }
+
+    #parceiros ul li a {
+        width: 7rem;
+    }
+    #parceiros ul li a img{
+        height: 4rem;
+    }
+
 
     #contact .container{
         margin:  0 auto;

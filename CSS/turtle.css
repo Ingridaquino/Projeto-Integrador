@@ -56,7 +56,7 @@
     margin: 2rem 0;
 }
 
-.container .text p{
+.mainTurtle  .container .text p{
     font-size: 1.2rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -104,6 +104,10 @@
     top: -50%;
     left: -15%;
     z-index: -1; /* ´Fica atrás da imagem */
+}
+
+.esquerda .oliva img{
+    height: 40.5rem;
 }
 
 
