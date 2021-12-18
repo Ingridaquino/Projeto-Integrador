@@ -1,17 +1,19 @@
 document.querySelector("#botaoEnviar").addEventListener("click", validarFormulario)
 function validarFormulario() {
-
+    const nome = document.getElementById("nome")
+    const email = document.getElementById("email")
+    const text = document.getElementById("validationTextarea")
+    
     if (
         document.getElementById("nome").value != "" &&
         document.getElementById("email").value != "" && 
-        document.getElementById("validationTextara").valeu != ""
+        document.getElementById("validationTextarea").valeu != ""
     ) {
-        const nome = document.getElementById("nome")
-         email = document.getElementById("email")
-        var text = document.getElementById("validationTextara")
-
+        // const nome = document.getElementById("nome")
+        // const email = document.getElementById("email")
+        // const text = document.getElementById("validationTextara")
         alert("Prontinho! Você receberá um e-mail com os próximos passos.")
-
+        
         return;
     } else {
 
@@ -22,11 +24,10 @@ function validarFormulario() {
 };
 
 
-///
-let swiper = new Swiper(".mySwiper", {
-    direction: "vertical",
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+// ///
+// let swiper = new Swiper(".mySwiper", {
+//     direction: "vertical",
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
