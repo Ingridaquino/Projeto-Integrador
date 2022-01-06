@@ -5,8 +5,14 @@
 Desenvolvimento Web do Instituto da Oportunidade Social | (IOS) em parceria com a
 Brasscom.
 
+## Por que o nome Squirtle?
 
-    ![Site Squirtle](./gif/tle.gif)
+![Squirtle](./gif.squirle-smile.gif)
+
+
+
+
+![Site Squirtle](./gif/tle.gif)
 
  
 <h4 align="center"> 
