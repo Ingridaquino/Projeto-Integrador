@@ -55,7 +55,7 @@ cd projeto-integrador
 ```
 
 
-## ✅ Autores *** 
+## ✏️ Autores *** 
 
 #### Feito com 💚 por [Ingrid Aquino](https://www.linkedin.com/in/ingrid-aquino-88a8b9147/)
 & [Driely Figueiredo](https://www.linkedin.com/in/driellyfigueiredo/)
