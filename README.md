@@ -11,8 +11,5 @@ Brasscom.
 
 >   
 <h4 align="center"> 
-	🧩 Squirtle 🚀 concluido ... 🧩
-
-    *Site*
-    https://ingridaquino.github.io/Projeto-Integrador/
+	🧩 Squirtle 🚀 concluido https://ingridaquino.github.io/Projeto-Integrador/   🧩
 </h4>
