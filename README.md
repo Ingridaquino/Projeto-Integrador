@@ -7,7 +7,7 @@ Brasscom.
 
 ## WEB
 
-![Site Squirtle](/video/squirtle.mp4)
+![Site Squirtle](./gif/tle.gif)
 
 <h4 align="center"> 
 	🧩 Squirtle 🚀 concluido ... 🧩
