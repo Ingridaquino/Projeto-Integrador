@@ -2,68 +2,64 @@
 
 ## 🐚  O que é Squirtle?
 - Squirtle é sobre uma ONG ficticia, produzido ao longo do curso de
-Desenvolvimento Web do Instituto da Oportunidade Social | (IOS) em parceria com a
-Brasscom.
+Desenvolvimento Web do [Instituto da Oportunidade Social](https://ios.org.br/) | (IOS) em parceria com a [Brasscom] (https://brasscom.org.br/).
 
 ## Por que o nome Squirtle?
 
-![Squirtle](./gif/squirle-smile.gif)
+![Squirtle](./gif/squirtle-smile.gif)
 
+O nome foi inspirado no Pokémon Squirtle que é uma tartaruga-marinha, já que a ONG se dedica à preservação e proteção delas.
 
-
-
-![Site Squirtle](./gif/tle.gif)
-
- 
-<h4 align="center"> 
-	🧩 Squirtle 🚀 concluido https://ingridaquino.github.io/Projeto-Integrador/   🧩
-</h4>
-
-
-
-
-## ✅ Pré-requisitos para clonar
-
-Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta:
-[Git](https://git-scm.com)
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
-
-### 🎲 Clonando 
-
-```bash
-# Clone este repositório
-$ git clone <https://github.com/Ingridaquino/Projeto-Integrador.git>
-
-# Acesse a pasta do projeto no terminal/bash
-$ cd 'Projeto Squirtle'/  
-
-
-
-```
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [HTML5]
-- [CSS3]
-- [JavaScritp]
+- HTML5
+- CSS3
+- JavaScritp
 
-#### Framework e Biblioteca
+#### Bibliotecas & Frameworks
 
 - [Bootstrap](https://getbootstrap.com/)
 - [Swiper](https://swiperjs.com/)
 
 
 
+![Site Squirtle](./gif/tle.gif)
 
 
-## ✅ Autor *** 
+ 
+<h4 align="center"> 
+	Projeto concluído, acesse pelo link ao lado: https://ingridaquino.github.io/Projeto-Integrador/  
+</h4>
 
-#### Feito com 💚 por Ingrid Aquino
 
-https://www.linkedin.com/in/ingrid-aquino-88a8b9147/
+## ✅ Pré-requisitos para clonar
+
+- [Git](https://git-scm.com)
+- Editor de texto - para melhor visualização do código fonte
+
+
+### 🔁 Como clonar em sua máquina?
+Acesse o terminal e digite os seguintes comando:
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/Ingridaquino/Projeto-Integrador.git projeto-integrador
+
+Em seguida acesse o repositório com o comando:
+
+# Acesse a pasta do projeto no terminal/bash
+cd projeto-integrador
+```
+
+
+## ✅ Autores *** 
+
+#### Feito com 💚 por [Ingrid Aquino](https://www.linkedin.com/in/ingrid-aquino-88a8b9147/)
+& [Driely Figueiredo](https://www.linkedin.com/in/driellyfigueiredo/)
+
 
 
 
