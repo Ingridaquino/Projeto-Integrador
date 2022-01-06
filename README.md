@@ -16,6 +16,10 @@ Brasscom.
 </h4>
 
 
+
+````
+
+
 ## ✅ Pré-requisitos para clonar
 
 Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta:
@@ -34,6 +38,7 @@ $ git clone <https://github.com/Ingridaquino/Projeto-Integrador.git>
 $ cd 'Projeto Squirtle'/  
 
 
+````
 
 
 ## 🛠 Tecnologias
@@ -50,6 +55,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Swiper](https://swiperjs.com/)
 
 
+````
+
 
 
 
@@ -61,6 +68,7 @@ https://www.linkedin.com/in/ingrid-aquino-88a8b9147/
 
 
 
+````
 
 
 /apm/l/:packageName
