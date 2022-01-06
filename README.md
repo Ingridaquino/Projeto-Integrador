@@ -7,9 +7,14 @@ Brasscom.
 
 ## WEB
 
-![Site Squirtle](./gif/tle.gif)
+<div aling="center">
+    ![Site Squirtle](./gif/tle.gif)
+</div
 
+>   
 <h4 align="center"> 
 	🧩 Squirtle 🚀 concluido ... 🧩
+
+    *Site*
     https://ingridaquino.github.io/Projeto-Integrador/
 </h4>
