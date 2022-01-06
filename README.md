@@ -51,7 +51,7 @@ $ git clone https://github.com/Ingridaquino/Projeto-Integrador.git projeto-integ
 Em seguida acesse o repositório com o comando:
 
 # Acesse a pasta do projeto no terminal/bash
-cd projeto-integrador
+$ cd projeto-integrador
 ```
 
 
