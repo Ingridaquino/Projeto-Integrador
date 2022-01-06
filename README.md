@@ -55,7 +55,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## ✅ Autor *** 
 
-## Feito com 💚 por Ingrid Aquino 
+#### Feito com 💚 por Ingrid Aquino
 
 https://www.linkedin.com/in/ingrid-aquino-88a8b9147/
 
