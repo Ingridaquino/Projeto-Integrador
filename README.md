@@ -9,19 +9,22 @@ Brasscom.
 
     ![Site Squirtle](./gif/tle.gif)
 
+
  
 <h4 align="center"> 
 	🧩 Squirtle 🚀 concluido https://ingridaquino.github.io/Projeto-Integrador/   🧩
 </h4>
 
 
-### ✅ Pré-requisitos para clonar
+## ✅ Pré-requisitos para clonar
 
 Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta:
 [Git](https://git-scm.com)
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Clonando 
+
+
+## 🎲 Clonando 
 
 ```bash
 # Clone este repositório
@@ -31,7 +34,9 @@ $ git clone <https://github.com/Ingridaquino/Projeto-Integrador.git>
 $ cd 'Projeto Squirtle'/  
 
 
-### 🛠 Tecnologias
+
+
+## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -39,17 +44,23 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS3]
 - [JavaScritp]
 
-#### Framework e Biblioteca
+## Framework e Biblioteca
 
 - [Bootstrap](https://getbootstrap.com/)
 - [Swiper](https://swiperjs.com/)
 
 
-✅ Autor
 
-#### Feito com 💚 por Ingrid Aquino 
+
+
+## ✅ Autor
+
+## Feito com 💚 por Ingrid Aquino 
 
 https://www.linkedin.com/in/ingrid-aquino-88a8b9147/
+
+
+
 
 
 /apm/l/:packageName
