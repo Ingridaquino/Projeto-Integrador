@@ -1,17 +1,17 @@
 # 🐢 Projeto Squirtle
 
-## 🐚  O que é Squirtle?
+### 🐚  O que é Squirtle?
 - Squirtle é sobre uma ONG fictícia, produzido ao longo do curso de
 Desenvolvimento Web do [Instituto da Oportunidade Social](https://ios.org.br/) | (IOS) em parceria com a [Brasscom] (https://brasscom.org.br/).
 
-### 📝 Descrição da aplicação.
+#### 📝 Descrição da aplicação.
  
 Aplicação tem objetivo de prestar serviços voluntários, promovendo a preservação das tartarugas-marinhas e seus ninhos.
 
-### 🎉 Qual o propósito do tema?
+#### 🎉 Qual o propósito do tema?
 Ajudar o meio ambiente e promover trabalho voluntário.
  
-### 🎯 Público alvo.
+#### 🎯 Público alvo.
 O público quer fazer a diferença no mundo.
 
 
