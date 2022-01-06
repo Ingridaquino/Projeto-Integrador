@@ -7,7 +7,7 @@ Brasscom.
 
 ## Por que o nome Squirtle?
 
-![Squirtle](./gif.squirle-smile.gif)
+![Squirtle](./gif/squirle-smile.gif)
 
 
 
