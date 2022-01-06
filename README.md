@@ -6,10 +6,8 @@ Desenvolvimento Web do Instituto da Oportunidade Social | (IOS) em parceria com 
 Brasscom.
 
 ## WEB
-
-<div aling="center">
     ![Site Squirtle](./gif/tle.gif)
-</div
+
 
 >   
 <h4 align="center"> 
