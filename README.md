@@ -5,21 +5,15 @@
 Desenvolvimento Web do Instituto da Oportunidade Social | (IOS) em parceria com a
 Brasscom.
 
-``
-
-## WEB
 
     ![Site Squirtle](./gif/tle.gif)
 
-``
  
 <h4 align="center"> 
 	🧩 Squirtle 🚀 concluido https://ingridaquino.github.io/Projeto-Integrador/   🧩
 </h4>
 
 
-
-````
 
 
 ## ✅ Pré-requisitos para clonar
@@ -56,7 +50,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Swiper](https://swiperjs.com/)
 
 
-``
+
 
 
 ## ✅ Autor *** 
@@ -66,4 +60,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 https://www.linkedin.com/in/ingrid-aquino-88a8b9147/
 
 
-````
+
