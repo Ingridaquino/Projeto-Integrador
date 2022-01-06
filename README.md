@@ -5,11 +5,13 @@
 Desenvolvimento Web do Instituto da Oportunidade Social | (IOS) em parceria com a
 Brasscom.
 
+``
+
 ## WEB
 
     ![Site Squirtle](./gif/tle.gif)
 
-
+``
  
 <h4 align="center"> 
 	🧩 Squirtle 🚀 concluido https://ingridaquino.github.io/Projeto-Integrador/   🧩
@@ -27,8 +29,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina a seguinte f
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 
-
-## 🎲 Clonando 
+### 🎲 Clonando 
 
 ```bash
 # Clone este repositório
@@ -38,8 +39,8 @@ $ git clone <https://github.com/Ingridaquino/Projeto-Integrador.git>
 $ cd 'Projeto Squirtle'/  
 
 
-````
 
+```
 
 ## 🛠 Tecnologias
 
@@ -49,26 +50,20 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS3]
 - [JavaScritp]
 
-## Framework e Biblioteca
+#### Framework e Biblioteca
 
 - [Bootstrap](https://getbootstrap.com/)
 - [Swiper](https://swiperjs.com/)
 
 
-````
+``
 
 
-
-
-## ✅ Autor
+## ✅ Autor *** 
 
 ## Feito com 💚 por Ingrid Aquino 
 
 https://www.linkedin.com/in/ingrid-aquino-88a8b9147/
 
 
-
 ````
-
-
-/apm/l/:packageName
