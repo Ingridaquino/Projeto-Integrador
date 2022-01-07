@@ -31,6 +31,15 @@ O nome foi inspirado no Pokémon Squirtle que é uma tartaruga-marinha, já que 
 </p>
 
 
+
+## 👩‍💻 Durante o desenvolvimento deste projeto, pude praticar:
+
+- Posicionamento dos elementos (grid e flexbox)
+- O funcionamento dos pseudo-elementos
+- Renderização dos elementos com os Media Query
+- Manipulação dos elementos utilizando o Javascript
+- Utilização de bibliotecas e frameworks
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
