@@ -1,26 +1,33 @@
+
 # 🐢 Projeto Squirtle
+
+![Site Squirtle](./gif/tle.gif)
+
+
+Projeto concluído, acesse pelo link ao lado: https://ingridaquino.github.io/Projeto-Integrador/  
+
+
 
 ### 🐚  O que é Squirtle?
 - Squirtle é sobre uma ONG fictícia, produzido ao longo do curso de
-Desenvolvimento Web do [Instituto da Oportunidade Social](https://ios.org.br/) | (IOS) em parceria com a [Brasscom] (https://brasscom.org.br/).
+Desenvolvimento Web do [Instituto da Oportunidade Social](https://ios.org.br/) | (IOS) em parceria com a [Brasscom](https://brasscom.org.br/).
+
+
 
 #### 📝 Descrição da aplicação.
  
-Aplicação tem objetivo de prestar serviços voluntários, promovendo a preservação das tartarugas-marinhas e seus ninhos.
+Aplicação tem  como objetivo de promover à preservação das tartarugas-marinhas e seus ninhos.
 
-#### 🎉 Qual o propósito do tema?
-Ajudar o meio ambiente e promover trabalho voluntário.
- 
-#### 🎯 Público alvo.
-O público quer fazer a diferença no mundo.
 
 
 
 ## Por que o nome Squirtle?
 
+O nome foi inspirado no Pokémon Squirtle que é uma tartaruga-marinha, já que a ONG se dedica à preservação e proteção delas.
+
 ![Squirtle](./gif/squirtle-smile.gif)
 
-O nome foi inspirado no Pokémon Squirtle que é uma tartaruga-marinha, já que a ONG se dedica à preservação e proteção delas.
+
 
 
 ## 🛠 Tecnologias
@@ -29,7 +36,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - HTML5
 - CSS3
-- JavaScritp
+- JavaScript
 
 #### Bibliotecas & Frameworks
 
@@ -38,19 +45,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 
-![Site Squirtle](./gif/tle.gif)
-
-
- 
-<h4 align="center"> 
-	Projeto concluído, acesse pelo link ao lado: https://ingridaquino.github.io/Projeto-Integrador/  
-</h4>
-
-
 ## ✅ Pré-requisitos para clonar
 
 - [Git](https://git-scm.com)
 - Editor de texto - para melhor visualização do código fonte
+
+
 
 
 ### 🔁 Como clonar em sua máquina?
