@@ -1,6 +1,10 @@
 
 # 🐢 Projeto Squirtle
 
+<p align="center">
+  <img src="./gif/tle.gif" />
+</p>
+
 ![Site Squirtle](./gif/tle.gif)
 
 
