@@ -57,14 +57,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### 🔁 Como clonar em sua máquina?
 Acesse o terminal e digite os seguintes comando:
 
+Clone este repositório
 ```bash
-# Clone este repositório
-$ git clone https://github.com/Ingridaquino/Projeto-Integrador.git projeto-integrador
+git clone https://github.com/Ingridaquino/Projeto-Integrador.git projeto-integrador
+```
 
 Em seguida acesse o repositório com o comando:
-
-# Acesse a pasta do projeto no terminal/bash
-$ cd projeto-integrador
+```bash
+cd projeto-integrador
 ```
 
 
