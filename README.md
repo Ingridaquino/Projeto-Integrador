@@ -5,9 +5,6 @@
   <img src="./gif/tle.gif" />
 </p>
 
-![Site Squirtle](./gif/tle.gif)
-
-
 Projeto concluído, acesse pelo link ao lado: https://ingridaquino.github.io/Projeto-Integrador/  
 
 
@@ -29,9 +26,9 @@ Aplicação tem  como objetivo de promover à preservação das tartarugas-marin
 
 O nome foi inspirado no Pokémon Squirtle que é uma tartaruga-marinha, já que a ONG se dedica à preservação e proteção delas.
 
-![Squirtle](./gif/squirtle-smile.gif)
-
-
+<p align="center">
+  <img src="./gif/squirtle-smile.gif" />
+</p>
 
 
 ## 🛠 Tecnologias
