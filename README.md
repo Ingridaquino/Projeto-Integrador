@@ -22,7 +22,7 @@ Aplicação tem  como objetivo de promover à preservação das tartarugas-marin
 
 
 
-## Por que o nome Squirtle?
+## ❣ Por que o nome Squirtle?
 
 O nome foi inspirado no Pokémon Squirtle que é uma tartaruga-marinha, já que a ONG se dedica à preservação e proteção delas.
 
